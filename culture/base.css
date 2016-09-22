@@ -61,3 +61,18 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content table tr { height:50px}
 #content table tr .td-center{ text-align:center}
 #content table tr .td-text{ vertical-align: top;line-height: 26px;padding-bottom: 73px;}
+
+/*产业项目*/
+#content .industry .industry-left{width: 260px;border: 2px solid #f2f2f2;float: left;padding-top: 95px;position: relative;}
+#content .industry .industry-left h2{width: 264px;height: 95px;background: #275aba;position: absolute;top: -2px;left: -2px;}
+#content .industry .industry-left h2 img{position: relative;top: 25px;left: 19px;}
+#content .industry .industry-left li{line-height: 49px;padding-left: 80px;list-style: circle;}
+#content .industry .industry-left li a{font-size: 16px;color: #bd1514;}
+#content .industry .industry-right{float: right;width: 922px;border: 1px solid #e4e4e4;}
+#content .industry .industry-right h5{line-height: 54px;background: #e3ebf2;padding-left: 14px;font-weight: normal; }
+#content .industry .industry-right h5 span{border-left: 3px solid #275aba;color: #275aba;font-size: 18px;padding-left: 10px;}
+#content .industry .industry-right h5 i{color: #575757;font-style: normal;font-size: 16px;}
+#content .industry .industry-right dl{padding: 50px 44px 0;text-align: center;}
+#content .industry .industry-right dt{float: left;text-align: right;font-size: 16px;width: 284px;}
+#content .industry .industry-right dd{margin: 0 0 34px 284px;text-align: left;}
+#content .industry .industry-right dd input,#content .industry .industry-right dd select{width: 260px;height: 23px;border: 1px solid #d6d6d6;text-indent: 20px;font-size: 16px;}
