@@ -11,6 +11,12 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 
 .clearfix{ zoom:1; position:relative; overflow:hidden; display:block;}
 .clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
+/* table 专用 */
+table {border:1 solid red;cellspacing:0;cellpadding:0;border-collapse:collapse;}
+table tr { height:50px}
+table tr .td-center{ text-align:center}
+table tr td{padding:20px}
+
 .container{width: 1200px;margin: 0 auto;}
 /*公用底部*/
 #footer{width: 100%;padding: 50px 0;background: #787c7f;}
