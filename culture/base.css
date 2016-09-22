@@ -12,6 +12,27 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .clearfix{ zoom:1; position:relative; overflow:hidden; display:block;}
 .clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
 .container{width: 1200px;margin: 0 auto;}
+
+/*公用顶部*/
+#top{width: 100%;background: #f7f7f7;}
+#top li{display: inline-block;line-height: 40px;font-size: 14px;color: #666;}
+#top li a{color: #666;}
+#logo{width: 100%;background: #fff;}
+#logo h1{float: left;}
+#logo h1 img{display: block;}
+#logo .return{float: right;line-height: 76px;}
+#logo .return a{color: #2058c2;font-size: 16px;}
+#nav{width: 100%;background: #f5f5f5;padding: 20px 0;border-top: 1px solid #bbbec4;border-bottom: 1px solid #eee;}
+#nav li{display: inline-block;font-size: 14px;}
+#nav li:first-child a{color: #bb1616;background: url(images/home.png) no-repeat 12px center;padding-left: 35px;}
+#nav li:nth-child(2n){margin: 0 14px;}
+#nav li a{color: #393939;}
+#search{width: 100%;padding: 15px 0;border-bottom: 1px solid #eee;}
+#search .tips{float: left;background: url(images/tips.png) no-repeat 10px center;padding-left: 49px;font-size: 14px;color: #444;line-height: 48px;}
+#search form{float: right;width: 441px;height: 46px;border-radius: 46px;border: 1px solid #dadada;background: #f8f8f8;}
+#search form input{font-size: 16px;color: #dadada;background: transparent;line-height: 46px;text-indent: 22px;}
+#search form input[type="text"]{width: 80%;}
+#search form input[type="submit"]{background: url(images/search.png) no-repeat center;float: right;color: transparent;cursor: pointer;}
 /*公用底部*/
 #footer{width: 100%;padding: 50px 0;background: #787c7f;}
 #footer ul,#footer p{text-align: center;color: #e3e0e0;}
