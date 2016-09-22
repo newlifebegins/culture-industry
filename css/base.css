@@ -41,6 +41,11 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #search form input{font-size: 16px;color: #dadada;background: transparent;line-height: 46px;text-indent: 22px;}
 #search form input[type="text"]{width: 80%;}
 #search form input[type="submit"]{background: url(../images/search.png) no-repeat center;float: right;color: transparent;cursor: pointer;}
+
+/*公用banner*/
+#banner{ position: relative; height: 430px; border-top:1px solid #bbbec4; overflow: hidden;}
+#banner img{ display: block; position: absolute; left: 50%; top: 0%; margin-left: -960px;}
+
 /*公用底部*/
 #footer{width: 100%;padding: 50px 0;background: #787c7f;}
 #footer ul,#footer p{text-align: center;color: #e3e0e0;}
@@ -111,3 +116,31 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .box-with-border .register dd span{padding:15px;color:#a0a0a0;font-size:14px}
 #content .box-with-border .register dt i{margin-right:10px;color:#ff0000;font-size:14px}
 #content .box-with-border .register dd a{display:inline-block;color:#ffffff;font-size:14px;border-radius:8px;width:150px;height:28px;background:#7c7c7c;margin-left:15px;text-align:center;line-height:28px}
+
+/*金融服务*/
+#content .finserbox{border: 1px solid #eeeeee;}
+#content .finserbox h1{ font-size: 20px; line-height: 30px; font-weight: normal; position: relative; padding-bottom: 10px; padding-left: 10px; color: #4d4d4d; border-bottom: 1px solid #2058c2;}
+#content .finserbox h1 span{ font-size: 16px;}
+#content .finserbox h1 a{ width: 55px; line-height: 24px; position: absolute; right: 20px; top: 50%; text-align: center; margin-top: -17px; border-radius: 2px; background-color: #376bca; color: #fff; font-size: 15px;}
+#content .finserbox h1 .more{ color: #333333; font-size: 16px; background-color: transparent; width: auto;}
+#content .finserbox .tip{ font-size: 14px; line-height: 40px; color: #959595; padding:10px}
+#content .finserbox dl{padding:30px; padding-bottom:0;text-align: center;}
+#content .finserbox dt{float: left;text-align: right;font-size: 16px;width: 244px;}
+#content .finserbox dd{margin: 0 0 34px 244px;text-align: left;position: relative;}
+#content .finserbox dd input[type="text"],#content .finserbox dd select{width: 260px;height: 23px;border: 1px solid #d6d6d6;text-indent: 20px;font-size: 16px;}
+#content .finserbox dd i{position: absolute;left: 225px;top: 4px;font-style: normal;color: #989898;}
+#content .finserbox dd select{color: #989898;}
+#content .finserbox dd span{font-size: 16px;color: #ef010a;margin-left: 10px;}
+#content .finserbox dd input[type="radio"]{margin: 0 10px;position: relative;top: 1px;}
+#content .finserbox dd label{font-size: 16px;}
+#content .finserbox dd.img input{background: url(../images/file.png) no-repeat 235px center;cursor: pointer;}
+#content .finserbox dd.btn a{display: inline-block;width: 72px;height: 23px;line-height: 23px;text-align: center;border: 1px solid #676767;background: transparent;cursor: pointer;font-size: 16px;}
+#content .finserbox dd.btn a:first-child{margin-right: 30px;}
+
+
+
+
+
+
+#content .finser-left{width: 325px;float: left; padding: 20px;}
+#content .finser-right{ margin-left: 386px; padding: 20px;}
