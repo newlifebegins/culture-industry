@@ -62,14 +62,15 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content table tr { height:50px}
 #content table tr .td-center{ text-align:center}
 #content table tr .td-text{ vertical-align: top;line-height: 26px;padding-bottom: 73px;}
-<<<<<<< HEAD:culture/base.css
+
 
 /*产业项目*/
 #content .industry .industry-left{width: 260px;border: 2px solid #f2f2f2;float: left;padding-top: 95px;position: relative;}
 #content .industry .industry-left h2{width: 264px;height: 95px;background: #275aba;position: absolute;top: -2px;left: -2px;}
 #content .industry .industry-left h2 img{position: relative;top: 25px;left: 19px;}
-#content .industry .industry-left li{line-height: 49px;padding-left: 80px;list-style: circle;}
+#content .industry .industry-left li{line-height: 49px;padding-left: 28px;}
 #content .industry .industry-left li a{font-size: 16px;color: #bd1514;}
+#content .industry .industry-left li a span{margin-right: 12px;}
 #content .industry .industry-right{float: right;width: 922px;border: 1px solid #e4e4e4;}
 #content .industry .industry-right h5{line-height: 54px;background: #e3ebf2;padding-left: 14px;font-weight: normal; }
 #content .industry .industry-right h5 span{border-left: 3px solid #275aba;color: #275aba;font-size: 18px;padding-left: 10px;}
@@ -77,11 +78,17 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .industry .industry-right dl{padding: 50px 44px 0;text-align: center;}
 #content .industry .industry-right dt{float: left;text-align: right;font-size: 16px;width: 284px;}
 #content .industry .industry-right dd{margin: 0 0 34px 284px;text-align: left;}
-#content .industry .industry-right dd input,#content .industry .industry-right dd select{width: 260px;height: 23px;border: 1px solid #d6d6d6;text-indent: 20px;font-size: 16px;}
-=======
+#content .industry .industry-right dd input[type="text"],#content .industry .industry-right dd select{width: 260px;height: 23px;border: 1px solid #d6d6d6;text-indent: 20px;font-size: 16px;}
+#content .industry .industry-right dd.img span{font-size: 16px;color: #ef010a;margin-left: 10px;}
+#content .industry .industry-right dd input[type="radio"]{margin: 0 10px;position: relative;top: 1px;}
+#content .industry .industry-right dd label{font-size: 16px;}
+#content .industry .industry-right dd.img input{background: url(../images/file.png) no-repeat 235px center;cursor: pointer;}
+#content .industry .industry-right dd.btn{text-align: right;margin: 60px 0 288px;}
+#content .industry .industry-right dd.btn a{display: inline-block;width: 72px;height: 23px;line-height: 23px;text-align: center;border: 1px solid #676767;background: transparent;cursor: pointer;font-size: 16px;}
+#content .industry .industry-right dd.btn a:first-child{margin-right: 30px;}
 #content .side-right{width:865px;float:right}
 #content .side-right button{background:#4480df;width:100%;height:50px;color:#ffffff;font-size:20px;}
 #content .side-right table{width:100%;border-collapse:collapse;}
 #content .side-right table td{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;}
 #content .side-right table th{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;background:#f7f7f7}
->>>>>>> fe23c390ca430c5adbd533568da14819838a102f:css/base.css
+
