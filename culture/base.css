@@ -1,0 +1,21 @@
+body,div,span,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,dl,dt,dd,input,img,form,button,blockquote{margin:0; padding:0; list-style:none; border:0;}
+body{font-size:12px;font-family: "Microsoft YaHei"; }
+a{text-decoration:none; color:#000;border:none;padding:0px;margin:0px;}
+a:hover{text-decoration:none;}
+img{ border:none;}
+input{ outline:none;}
+ul,li,ol,input{ list-style:none;}
+input,button,select,textarea{outline:none}/*取消聚焦*/
+.left{ float:left;}/*左浮动*/
+.right{ float:right;}/*右浮动*/
+
+.clearfix{ zoom:1; position:relative; overflow:hidden; display:block;}
+.clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
+.container{width: 1200px;margin: 0 auto;}
+/*公用底部*/
+#footer{width: 100%;padding: 50px 0;background: #787c7f;}
+#footer ul,#footer p{text-align: center;color: #e3e0e0;}
+#footer ul{margin-bottom: 40px;}
+#footer p{line-height: 35px;font-size: 16px;}
+#footer li,#footer span{display: inline-block;color: #e3e0e0;font-size: 18px;}
+#footer li a{padding: 0 20px;color: #e3e0e0;font-size: 18px;}
