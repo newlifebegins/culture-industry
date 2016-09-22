@@ -77,8 +77,10 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .industry .industry-right h5 i{color: #575757;font-style: normal;font-size: 16px;}
 #content .industry .industry-right dl{padding: 50px 44px 0;text-align: center;}
 #content .industry .industry-right dt{float: left;text-align: right;font-size: 16px;width: 284px;}
-#content .industry .industry-right dd{margin: 0 0 34px 284px;text-align: left;}
+#content .industry .industry-right dd{margin: 0 0 34px 284px;text-align: left;position: relative;}
 #content .industry .industry-right dd input[type="text"],#content .industry .industry-right dd select{width: 260px;height: 23px;border: 1px solid #d6d6d6;text-indent: 20px;font-size: 16px;}
+#content .industry .industry-right dd i{position: absolute;left: 225px;top: 4px;font-style: normal;color: #989898;}
+#content .industry .industry-right dd select{color: #989898;}
 #content .industry .industry-right dd.img span{font-size: 16px;color: #ef010a;margin-left: 10px;}
 #content .industry .industry-right dd input[type="radio"]{margin: 0 10px;position: relative;top: 1px;}
 #content .industry .industry-right dd label{font-size: 16px;}
