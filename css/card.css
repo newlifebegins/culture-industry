@@ -39,7 +39,7 @@
 .cardshowrt .ulguess li:last-child{ border-bottom: none;}
 .cardshowrt .ulguess li .tit{}
 .cardshowrt .ulguess li img{ display: block; width:264px; }
-.ulstars{ width: 110px; overflow: hidden;zoom:1; background: url(../images/star.png) repeat-x; height: 16px;}
+.ulstars{ width: 110px; overflow: hidden;zoom:1; background: url(../images/cardstar.png) repeat-x; height: 16px;}
 .ulstars .li{ width: 22px; float: left; height: 16px; padding: 0px; font-size: 0px;}
-.ulstars p{ display: block; height: 16px; background: url("../images/star.png") 0px -20px repeat-x;}
+.ulstars p{ display: block; height: 16px; background: url("../images/cardstar.png") 0px -20px repeat-x;}
 .cardshowrt .ulguess .ulstars{ margin: 12px 0;}
