@@ -1,0 +1,45 @@
+.shdbox{ box-shadow: 0px 0px 10px 0px #ddd;}
+.cardshowcon{}
+.cardshowlt{ float: left;width: 864px;}
+.cardshowrt{ float: right; width:316px; }
+.cshowmain{border: 1px solid #e4e4e4;}
+.cardshowcon .maintit{ background: #e3ebf2;}
+.cardshowcon .maintit strong{ font-size: 18px; font-weight: normal; color: #275aba;line-height: 54px; position: relative;  padding-left: 26px; display: block; }
+.cardshowcon .maintit strong:before{ content: ""; top: 16px; width: 3px; height: 24px; background: #275aba; left: 12px; position: absolute;}
+.cardparas{ padding: 40px;}
+.cardparas .prodimg{ float: left; width:378px; height: 328px; }
+.cardparas .dlprod{ margin-left: 424px; line-height: 60px;font-size: 16px;color: #5d5d5d; }
+.cardparas .dlprod dt,.cardparas .dlprod dd{ min-height: 60px;}
+.cardparas .dlprod dt{ float: left; width: 108px; position: relative; }
+.cardparas .dlprod dt:after{ position: absolute; content: ":"; right: 0px;}
+.cardparas .dlprod dd{ margin-left: 118px;}
+.cardparas .dlprod dd h1{ font-size: 24px; font-weight: normal; color: #2e2e32;}
+.cardparas .dlprod .price{ color: #ef4e23;}
+.cardparas .dlprod .price strong{ font-size: 30px; font-weight: normal;}
+.cardhuitit{ line-height: 52px; border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4; margin-bottom: 20px;}
+.cardhuitit strong{ font-size: 22px; font-weight: normal;color:#ef4e23; position:relative; display: inline-block; padding: 0px 20px 0px 30px;}
+.cardhuitit span{ color: #275aba; font-size: 16px; margin-left: 16px; }
+.cardhuitit strong:after{ height: 32px; width: 1px; background: #e4e4e4; top: 12px; right: 0px; position: absolute; content: "";}
+.dlcardinfo{}
+.dlcardinfo dt{ border-bottom: 2px solid #275aba;}
+.dlcardinfo dt a{ background:#275aba; border-radius: 4px 4px 0px 0px; line-height: 28px; display: inline-block; margin-left:56px; font-size: 15px; color: #fff;
+    padding: 0px 24px; position: relative;}
+.dlcardinfo dt a:after{ content: ""; position: absolute; border-width:6px 6px 0px 6px;
+    border-style:solid; border-color:#275aba transparent transparent transparent; bottom: -8px; left: 45%;}
+.dlcardinfo dd{ padding: 38px 30px; font-size:18px; color: #6c6968; line-height: 30px; }
+.dlcardinfo dd cite{display: block; font-style: normal;}
+.dlcardinfo dd h5{ font-size: 18px; font-weight: normal; line-height: 50px;}
+.dlcardinfo dd p{ text-indent: 2em;}
+
+.cardshowrt .mapbox{ padding: 6px 0px 6px 6px; margin-bottom: 16px;}
+.cardshowrt .mapbox img{ width: 306px; display: block;}
+.cardshowrt .rtbox{}
+.cardshowrt .ulguess{ margin:0px 10px; color: #3b3b3b; font-size: 16px; padding-bottom: 16px;}
+.cardshowrt .ulguess li{ border-bottom: 1px solid #e2e2e2; padding:16px 12px 12px;}
+.cardshowrt .ulguess li:last-child{ border-bottom: none;}
+.cardshowrt .ulguess li .tit{}
+.cardshowrt .ulguess li img{ display: block; width:264px; }
+.ulstars{ width: 110px; overflow: hidden;zoom:1; background: url(../images/star.png) repeat-x; height: 16px;}
+.ulstars .li{ width: 22px; float: left; height: 16px; padding: 0px; font-size: 0px;}
+.ulstars p{ display: block; height: 16px; background: url("../images/star.png") 0px -20px repeat-x;}
+.cardshowrt .ulguess .ulstars{ margin: 12px 0;}
