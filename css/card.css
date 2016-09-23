@@ -43,3 +43,50 @@
 .ulstars .li{ width: 22px; float: left; height: 16px; padding: 0px; font-size: 0px;}
 .ulstars p{ display: block; height: 16px; background: url("../images/cardstar.png") 0px -20px repeat-x;}
 .cardshowrt .ulguess .ulstars{ margin: 12px 0;}
+
+
+.cardcon{ color: #5f5f5f; }
+.cardcon a{ color: #5f5f5f;}
+.cardcon img{ display: block;}
+.cardban{ min-width: 1200px;}
+.cardban img{ display: block; width: 100%;}
+.cardlt{ width: 368px; float: left;}
+.cardrt{ width: 814px; float: right;}
+.cardcell{ border: 1px solid  #e4e4e4; padding: 6px 16px 20px; margin-bottom: 18px;}
+.cardcell .tit{ font-size: 20px; text-indent: 12px; border-bottom:2px solid #2058c2; line-height: 50px; color: #4d4d4d; margin-bottom: 16px;}
+.cardcell .cardindexintro{ font-size: 16px; line-height: 30px;}
+.cardcell .cardindexintro p{ text-indent: 2em;}
+.cardsublt{ width: 390px; float: left;}
+.cardsubrt{ width: 360px; float: right;}
+.cardsubtit{ color: #131926; margin-bottom: 12px; border-bottom: 1px solid #e4e4e4; padding-bottom: 12px; font-size: 16px; text-indent: 8px; }
+.ulguanzhu{ font-size: 16px;}
+.ulguanzhu li{ border-bottom: 1px solid #efefef; line-height: 38px;}
+.ulguanzhu li em{ font-style: normal; border-bottom: 1px solid #efefef; line-height: 38px; display: inline-block; color: #de2d2d; text-align: center; width: 70px;}
+.cardre{ font-size: 14px;}
+.cardre a{ color: #808080;}
+.cardre .pic{ display: block; width: 194px; float: left;}
+.cardre ul{ margin-left: 200px;}
+.cardre ul li{ line-height: 22px; margin-bottom:16px; }
+.cardre ul li:last-child{ margin-bottom: 0;}
+.cardre ul li em{ display: inline-block; width: 44px; text-align: center; height: 22px; color: #fff; background: #b81818; font-style: normal; margin-right: 8px;}
+.ulelsere{ font-size: 14px; color: #808080;}
+.ulelsere a{ color: #808080;}
+.ulelsere li{ overflow: hidden;zoom:1; margin-bottom: 10px;}
+.ulelsere li p{ display: block; margin-right:174px; line-height: 20px;}
+.ulelsere li p em{ font-weight: bold; font-style: normal; color: #de2d2d; margin-right: 4px;}
+.ulelsere img{ float: right;}
+.ulcardlogos{ text-align: center; font-size: 14px;}
+.ulcardlogos li{ float: left; width: 25%;}
+.ulcardlogos li img{ margin: 0 auto; margin-bottom: 8px;}
+.ulcardlogos li .name{}
+.ulcardcontact{ font-size: 14px;}
+.ulcardcontact li{ float: left; width: 40%; margin-left: 40px;}
+.ulcardcontact li img{ display: inline-block; vertical-align: middle; margin-right: 20px;}
+
+
+
+
+
+
+
+
