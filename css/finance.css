@@ -16,7 +16,6 @@
 
 .finan_l .finlul .star_enterprise .enterprise{font-size: 16px; color:#383838;}
 .finan_l .finlul li p{font-size: 14px; color:#808080; height: 40px; line-height: 40px;}
-
 .finan_l .more{display: block; text-align: right; font-size: 16px; color:#333333;border-top:1px solid #d8d8d8; margin: 0 20px; height: 35px; line-height: 35px; padding-right: 5px; }
 
 
@@ -47,7 +46,11 @@
 .yinhang a .fund{ width:150px; border-radius: 5px; background: #a0a0a0; height:45px;}
 .yinhang a P{margin-top: 12px; text-align: center;}
 
-.brandattr{background: #f7f7f7; border:1px solid #eee;}
+.brandattr{background: #f7f7f7; border:1px solid #eee; padding:15px; margin-bottom: 20px;}
+.brandattr .brandl{margin-bottom: 20px;}
+.brandattr .brandl .bluea{height: 30px; width:70px; background: #4480df; margin: 0 16px; color:#fff; text-align: center; line-height: 30px; display: inline-block;}
+.brandattr .brandl dt{float: left; line-height: 30px; width:85px; text-align: right; font-size: 14px; color:#787d82;}
+.brandattr .brandl dd a{margin-right:15px; color:#14191e;}
 
 .analysis{padding:20px; background: #f7f7f7; border:1px solid #eee; }
 .analysis h3{ line-height: 40px;border-bottom: 1px solid #2058c2; font-size: 18px; font-weight: normal;padding-left:15px; }
