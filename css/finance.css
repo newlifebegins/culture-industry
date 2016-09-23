@@ -46,3 +46,25 @@
 .yinhang a{display: inline-block; margin-left: 20px; height: 56px;  margin-right: 75px;}
 .yinhang a .fund{ width:150px; border-radius: 5px; background: #a0a0a0; height:45px;}
 .yinhang a P{margin-top: 12px; text-align: center;}
+
+.brandattr{background: #f7f7f7; border:1px solid #eee;}
+
+.analysis{padding:20px; background: #f7f7f7; border:1px solid #eee; }
+.analysis h3{ line-height: 40px;border-bottom: 1px solid #2058c2; font-size: 18px; font-weight: normal;padding-left:15px; }
+.analysis h3 span{ color:#4480df; }
+.analysis .anaul{overflow:hidden;padding-left: 7px;}
+.analysis .anaul .anaimg{position:relative;width:235px; height: 170px; background: #fff; border:1px solid #eee;padding:15px;}
+.analysis .anaul .anaimg a{display: inline-block;}
+.analysis .anaul .anaimg .posspan{position:absolute; right:18px; top:15px; width:70px; height: 70px;}
+.analysis .anaul .anaimg .spirit1{background: url(../images/spirit1.png) no-repeat;}
+.analysis .anaul .anaimg .spirit2{ background: url(../images/spirit2.png) no-repeat;}
+.analysis .anaul .anaimg .spirit3{background: url(../images/spirit3.png) no-repeat;}
+.analysis .anaul li{float: left; margin: 10px 6px;}
+.analysis .anaul li .allp{padding:0 20px; }
+.analysis .anaul li .allp p{color:#898989; line-height:25px;}
+.analysis .anaul li .allp .entryname{font-size: 14px; clolor:#242424; margin-top: 10px;}
+
+
+
+
+
