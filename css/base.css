@@ -140,4 +140,9 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .finser-left{width: 325px;float: left; padding: 20px;}
 #content .finser-right{ margin-left: 386px; padding: 20px;}
 
-#content .comment{background:#f7f7f7} 
+#content .comment{background:#f7f7f7;padding: 8px 21px 19px;border: 1px solid #e7e7e7;} 
+#content .comment h5{font-size: 20px;line-height: 35px;padding-left: 12px;border-bottom: 1px solid #2058c2;font-weight: 500;margin-bottom: 14px;padding-bottom: 4px;}
+#content .comment dl{padding: 0 14px 18px;border: 1px solid #e7e7e7;float: left;background: #fff;margin: 0 0 24px 21px;}
+#content .comment dl:nth-of-type(3n+1){margin-left: 2px;}
+#content .comment dl dt{width: 218px;font-size: 16px;background: url(../images/star.png) no-repeat 12px center;padding:18px 0 18px 122px;border-bottom: 1px solid #e7e7e7;margin-bottom: 15px;}
+#content .comment dl dd{font-size: 14px;line-height: 45px;color: #808080;padding-left: 12px;}
