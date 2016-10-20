@@ -13,7 +13,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
 
 
-.container{width: 1200px;margin: 0 auto;}
+.container{width: 1200px;margin: 0 auto;position: relative;}
 
 /*公用顶部*/
 #top{width: 100%;background: #f7f7f7;}
@@ -30,11 +30,21 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #logo ul li:last-child a{padding-right: 0;}
 #logo ul li.on a{border-bottom: 1px solid #bb1616;color: #bb1616;padding-bottom: 9px;}
 #logo.logo-with-line {border-bottom: 2px solid #4480df}
+#logo form{float: left;margin: 14px 0 0 178px;width: 441px;height: 46px;border-radius: 46px;border: 1px solid #dadada;background: #f8f8f8;}
+#logo form input{font-size: 16px;color: #dadada;background: transparent;line-height: 46px;text-indent: 22px;}
+#logo form input[type="text"]{width: 80%;}
+#logo form input[type="submit"]{background: url(../images/search.png) no-repeat center;float: right;color: transparent;cursor: pointer;}
+
 #nav{width: 100%;background: #f5f5f5;padding: 20px 0;border-top: 1px solid #bbbec4;border-bottom: 1px solid #eee;}
 #nav li{display: inline-block;font-size: 14px;}
 #nav li:first-child a{color: #bb1616;background: url(../images/home.png) no-repeat 12px center;padding-left: 35px;}
 #nav li:nth-child(2n){margin: 0 14px;}
 #nav li a{color: #393939;}
+#nav form{float: right;position: absolute;right: 0;top: -15px;width: 441px;height: 46px;border-radius: 46px;border: 1px solid #dadada;background: #f8f8f8;}
+#nav form input{font-size: 16px;color: #dadada;background: transparent;line-height: 46px;text-indent: 22px;}
+#nav form input[type="text"]{width: 80%;}
+#nav form input[type="submit"]{background: url(../images/search.png) no-repeat center;float: right;color: transparent;cursor: pointer;}
+
 #search{width: 100%;padding: 15px 0;border-bottom: 1px solid #eee;}
 #search .tips{float: left;background: url(../images/tips.png) no-repeat 10px center;padding-left: 49px;font-size: 14px;color: #444;line-height: 48px;}
 #search form{float: right;width: 441px;height: 46px;border-radius: 46px;border: 1px solid #dadada;background: #f8f8f8;}
