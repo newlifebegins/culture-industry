@@ -93,11 +93,11 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .industry .industry-right dd.btn{text-align: right;margin: 60px 0 288px;}
 #content .industry .industry-right dd.btn a{display: inline-block;width: 72px;height: 23px;line-height: 23px;text-align: center;border: 1px solid #676767;background: transparent;cursor: pointer;font-size: 16px;}
 #content .industry .industry-right dd.btn a:first-child{margin-right: 30px;}
-#content .side-right{width:865px;float:right}
-#content .side-right button{background:#4480df;width:100%;height:50px;color:#ffffff;font-size:20px;}
-#content .side-right table{width:100%;border-collapse:collapse;}
-#content .side-right table td{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;}
-#content .side-right table th{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;background:#f7f7f7}
+#content .table-side-right{width:865px;float:right}
+#content .table-side-right button{background:#4480df;width:100%;height:50px;color:#ffffff;font-size:20px;}
+#content .table-side-right table{width:100%;border-collapse:collapse;}
+#content .table-side-right table td{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;}
+#content .table-side-right table th{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;background:#f7f7f7}
 
 #content .box-with-border{width:1098px;border: 1px solid #d8d8d8;margin:0 auto;padding:18px;}
 #content .box-with-border h2{font-size:24px;text-align:center;color:#3d3d3d}
@@ -154,3 +154,5 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .comment dl dd{font-size: 14px;line-height: 45px;color: #808080;padding-left: 12px;}
 
 .side-right{position: fixed;right: 0;top: 50%;margin-top: -75px;}
+
+.newsli li {width: 8%;display:inline-block;font-size:18px;}
