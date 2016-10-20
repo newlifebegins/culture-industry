@@ -166,3 +166,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .side-right{position: fixed;right: 0;top: 50%;margin-top: -75px;}
 
 .newsli li {width: 8%;display:inline-block;font-size:18px;}
+#content .container .hotspot h3 {font-size: 28px; text-align:center;color:#696b76}
+#content .container .hotspot h5 {font-size: 20px; text-align:center;color:#696b76}
+#content .container .hotspot p {font-size: 16px; padding:5px 30px;color:#696b76}
+
