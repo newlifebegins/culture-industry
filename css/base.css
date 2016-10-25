@@ -126,7 +126,22 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .box-with-border .register dd span{padding:15px;color:#a0a0a0;font-size:14px}
 #content .box-with-border .register dt i{margin-right:10px;color:#ff0000;font-size:14px}
 #content .box-with-border .register dd a{display:inline-block;color:#ffffff;font-size:14px;border-radius:8px;width:150px;height:28px;background:#7c7c7c;margin-left:15px;text-align:center;line-height:28px}
-
+#content .login{width: 1200px;height: 505px;border: 1px solid #ccc;margin: 150px auto;}
+#content .login ul{line-height: 38px;background: #efefef;}
+#content .login ul li{display: inline-block;}
+#content .login ul li a{display: block;padding: 0 20px;font-size: 16px;height: 39px;line-height: 38px;}
+#content .login ul li.on a{background: #fff;color: #4480e0;}
+#content .login dl{float: left;width: 727px;height: 467px;border-right: 1px solid #ccc;padding: 70px 50px;box-sizing: border-box;font-size: 16px;}
+#content .login dl dt{float: left;width: 84px;text-align: right;line-height: 72px;}
+#content .login dl dd{margin-left: 84px;line-height: 72px;}
+#content .login dl dd input{width: 268px;height: 32px;border: 1px solid #ccc;border-radius: 4px;text-indent: 5px;}
+#content .login dl dd input.yzm{width: 150px;height: 32px;border: 1px solid #ccc;border-radius: 4px;text-indent: 5px;}
+#content .login dl dd span{color: #ccc;font-size: 14px;margin-left: 20px;}
+#content .login dl dd img{vertical-align: middle;margin-left: 20px;}
+#content .login dl dd.wj{}
+#content .login dl dd.wj a{display: inline-block;width: 160px;height: 34px;text-align: center;line-height: 34px;color: #fff;border-radius: 10px;background: #4480e0;}
+#content .login .nousername{float: right;width: 473px;height: 467px;text-align: center;padding: 200px 0;box-sizing: border-box;font-size: 14px;color: #333;}
+#content .login .nousername a{display: block;width: 106px;height: 34px;text-align: center;line-height: 34px;border-radius: 5px;border: 1px solid #ccc;margin: 0 auto;font-size: 14px;color: #333;margin-top: 15px;}
 /*金融服务*/
 #content .finserbox{border: 1px solid #eeeeee;}
 #content .finserbox h1{ font-size: 20px; line-height: 30px; font-weight: normal; position: relative; padding-bottom: 10px; padding-left: 10px; color: #4d4d4d; border-bottom: 1px solid #2058c2;}
