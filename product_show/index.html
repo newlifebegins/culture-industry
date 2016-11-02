@@ -5,46 +5,113 @@
 	<title>山西文化产业网-产品展示</title>
 	<link rel="stylesheet" href="../css/base.css" />
 	<link rel="stylesheet" href="../css/product-show.css" />
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/topMenu.js"></script>
 </head>
 <body>
 <div id="top">
 	<div class="container clearfix">
 		<ul class="left">
-			<li><a href="#">网站首页</a></li>
+			<li><a href="../index.html">网站首页</a></li>
 			<li><span>|</span></li>
 			<li><a href="#">收藏本站</a></li>
 		</ul>
 		<ul class="right">
-			<li><a href="#">登录</a></li>
+			<li><a href="../reg_login/login-personal.html">登录</a></li>
 			<li><span>|</span></li>
-			<li><a href="#">注册</a></li>
+			<li><a href="../reg_login/register-personal.html">个人注册</a></li><li><span>|</span></li><li><a href="../reg_login/register-company.html">企业注册</a></li>
 		</ul>
 	</div>
 </div>
-<div id="logo">
-	<div class="container clearfix">
-		<h1><img src="../images/logo.png" alt="山西文化产业网"></h1>
-		<ul>
-		    <li><a href="#">咨讯中心</a></li>
-		    <li><span>|</span></li>
-		    <li><a href="#">政策法规</a></li>
-		    <li><span>|</span></li>
-		    <li><a href="#">产品项目</a></li>
-		    <li><span>|</span></li>
-		    <li class="on"><a href="#">产品展示</a></li>
-		    <li><span>|</span></li>
-		    <li><a href="#">金融服务</a></li>
-		    <li><span>|</span></li>
-		    <li><a href="#">消费服务</a></li>
-		</ul>
-	</div>		
-</div>
+<div class="header">
+			<div class="content">
+				<a href="../index.html" class="left logo"></a>
+				<ul class="top_menuList right">
+					<li class="top_menuItem">
+						<a class="top_menuItemA" href="../index.html">首页</a>
+					</li>
+					<li class="top_menuItem">
+						<a class="top_menuItemA" href="../news/index.html">资讯中心</a>
+						<div class="top_menuItemDiv">
+							<table class="table menu_Zx">
+								<tbody>
+									<tr>
+										<td>
+											<a href="../news/list.html">产业要闻</a>
+										</td>
+										<td>
+											<a href="#">地市动态</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="../news/pic.html">图片新闻</a>
+										</td>
+										<td>
+											<a href="../news/level31.html">视频中心</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="../news/level32.html">热点专题</a>
+										</td>
+										<td>
+											<a href="../news/notification.html">通知通告</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="#">企业推荐</a>
+										</td>
+										<td>
+											<a href="#">产业研究</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="../news/show.html">产业论坛</a>
+										</td>
+										<td>
+											<a href="#">产业案例</a>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a href="../news/level33.html">文化资源</a>
+										</td>
+										<td>
+
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</li>
+					<li class="top_menuItem">
+						<a class="top_menuItemA" href="../policy/index.html">政策法规</a>
+					</li>
+					<li class="top_menuItem">
+						<a class="top_menuItemA" href="../industrial/index.html">产业项目</a>
+					</li>
+					<li class="top_menuItem choose">
+						<a class="top_menuItemA" href="../product_show/index.html">产品展示</a>
+					</li>
+					<li class="top_menuItem">
+						<a class="top_menuItemA" href="../finser/index.html">金融服务</a>
+					</li>
+					<li class="top_menuItem">
+						<a class="top_menuItemA" href="../card/index.html">消费服务</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
 <!-- <div id="nav">
 	<div class="container">
 		<ul>
-			<li><a href="#">首页</a></li>
+			<li><a href="../index.html">首页</a></li>
 			<li><span>></span></li>
-			<li><a href="#">产业项目</a></li>
+			<li><a href="index.html">产业项目</a></li>
 			<li><span>></span></li>
 			<li><a href="#">个人中心</a></li>
 			<li><span>></span></li>
@@ -67,12 +134,13 @@
 			<div>
 				<dl>
 					<dt>主题馆</dt>
+					
 					<dd>
-						<a href="#">玻璃水晶</a>|<a href="#">陶瓷</a>|<a href="#">书画</a>
+						<a href="paper-cut.html">剪纸</a>|<a href="#">漆器</a>|<a href="#">布艺</a>
 						<img src="../images/product-show/hidden.jpg" alt="隐藏内容" class="hidden" hidden />
 					</dd>
 					<dd>
-						<a href="#">剪纸</a>|<a href="#">漆器</a>|<a href="#">布艺</a>
+						<a href="#">玻璃水晶</a>|<a href="#">陶瓷</a>|<a href="#">书画</a>
 						<img src="../images/product-show/hidden.jpg" alt="隐藏内容" class="hidden" hidden />
 					</dd>
 					<dd>
@@ -87,7 +155,7 @@
 				<dl>
 					<dt>地市馆</dt>
 					<dd>
-						<a href="#">太原</a>|<a href="#">大同</a>|<a href="#">阳泉</a>
+						<a href="area.html">太原</a>|<a href="#">大同</a>|<a href="#">阳泉</a>
 						<img src="../images/product-show/hidden.jpg" alt="隐藏内容" class="hidden" hidden />
 					</dd>
 					<dd>
@@ -106,7 +174,7 @@
 				<dl>
 					<dt>旅游馆</dt>
 					<dd>
-						<a href="#">佛教用品店</a>|<a href="#">黄河风情街</a>
+						<a href="budd.html">佛教用品店</a>|<a href="#">黄河风情街</a>
 						<img src="../images/product-show/hidden.jpg" alt="隐藏内容" class="hidden" hidden />
 					</dd>
 					<dd>
@@ -136,28 +204,28 @@
 					<img src="../images/product-show/banner1.jpg" alt="金牡丹" />
 				</div>
 				<dl>
-					<dt>一周一品</dt>
+					<dt><a href="show.html" style="color: white;">一周一品</a></dt>
 					<dd><a href="#"><img src="../images/product-show/shop1.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop2.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop3.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop4.jpg" alt="" /></a></dd>
 				</dl>
 				<dl>
-					<dt>山西制造</dt>
-					<dd><a href="#"><img src="../images/product-show/shop5.jpg" alt="" /></a></dd>
+					<dt><a href="market.html" style="color: white;">山西质造</a></dt>
+					<dd><a href="show.html"><img src="../images/product-show/shop5.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop6.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop7.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop8.jpg" alt="" /></a></dd>
 				</dl>
 				<dl>
-					<dt>特价超市</dt>
+					<dt><a href="market.html" style="color: white;">特价超市</a></dt>
 					<dd><a href="#"><img src="../images/product-show/shop1.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop2.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop3.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop4.jpg" alt="" /></a></dd>
 				</dl>
 				<dl>
-					<dt>联盟活动</dt>
+					<dt><a href="activity1.html" style="color: white;">联盟活动</a></dt>
 					<dd><a href="#"><img src="../images/product-show/shop5.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop6.jpg" alt="" /></a></dd>
 					<dd><a href="#"><img src="../images/product-show/shop7.jpg" alt="" /></a></dd>
@@ -167,7 +235,7 @@
 		</td>
 		<td class="side-rights">
 			<div>
-				<h5>产品发布</h5>
+				<a href="upload.html"><h5>产品发布</h5></a>
 				<dl>
 					<dt><span>关注排行</span></dt>
 					<dd>
@@ -243,12 +311,12 @@
 </table>
 <div class="culture container">
 	<ul class="title clearfix">
-		<li><a href="#">佛教用品店</a>|</li>
-		<li><a href="#">黄河风情店</a>|</li>
-		<li><a href="#">晋商文化馆</a>|</li>
-		<li><a href="#">太行特产购</a>|</li>
-		<li><a href="#">寻根觅祖祠</a>|</li>
-		<li><a href="#">红色纪念品</a></li>
+		<li><a href="activity.html">佛教古建筑</a>|</li>
+		<li><a href="#">黄河文化游</a>|</li>
+		<li><a href="#">晋商文化游</a>|</li>
+		<li><a href="#">太行山水游</a>|</li>
+		<li><a href="#">寻根觅祖游</a>|</li>
+		<li><a href="#">红色景点游</a></li>
 	</ul>
 	<ul class="culture-list clearfix">
 		<li>

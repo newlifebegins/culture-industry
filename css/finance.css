@@ -33,7 +33,7 @@
 .rcon .cre{width:380px;}
 .rcon .cre h4{border-bottom: 1px solid #eeeeee; height: 38px; margin-bottom: 7px; line-height: 38px; padding-left: 10px; font-size: 16px; color: #131926;font-weight: normal;}
 .rcon .credit_l{float: left;}
-.rcon .credit_l li{float: left; position: relative;  margin: 10px;}
+.rcon .credit_l li{float: left; position: relative;  margin: 9px;}
 .rcon .credit_l li p{background: #fff; opacity: 0.7; position: absolute; text-align: center; line-height: 30px; font-size: 13px; color: #181818; left:0; right:0; bottom:0;}
 .rcon .credit_r{float: right;}
 .rcon .credit_r ul{padding-top:10px; }

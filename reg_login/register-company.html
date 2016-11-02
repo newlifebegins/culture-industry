@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>山西文化产业网 - 产业项目</title >
-    <link rel="stylesheet" href="../css/base.css" />     
+    <link rel="stylesheet" href="../css/base.css" />   
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
   </head>
 <body>
 <div id="top">
     <div class="container clearfix">
         <ul class="right">
-            <li><a href="#">网站首页</a></li>
+            <li><a href="../index.html">网站首页</a></li>
             <li><span>|</span></li>
             <li><a href="#">收藏本站</a></li>
         </ul>
     </div>
 </div>
-<div id="logo" class="logo-with-line">
-    <div class="container clearfix">
-        <h1><img src="../images/logo.png" alt="山西文化产业网"></h1>
-    </div>      
+<div class="header logo-with-line">
+			<div class="content">
+				<a href="../index.html" class="left logo"></a>
+			</div>
 </div>
 <div id="content">
   <div class="box-with-border">
@@ -27,6 +28,7 @@
     <dl class="clearfix">
       <dt><i>*</i>企业名称：</dt><dd><input type="text" value="山西文化产业网" placeholder=""><span>请输入企业名称</span></dd>
       <dt><i>*</i>企业法人：</dt><dd><input type="text" value="山西文化产业网" placeholder=""><span>请输入法人名称</span></dd>
+      <dt><i>*</i>上传附件：</dt><dd><button class="btn btn-primary" onclick="location.href='upload.html'"> 上传附件</button></dd>
         <dt><i>*</i>手机号：</dt><dd><input type="text" value="12345678951"><span>请输入手机号</span></dd>
         <dt><i>*</i>企业邮箱：</dt><dd><input type="text" value="12345678951@yahoo.com"><span>请输入企业邮箱</span></dd>
         <dt><i>*</i>密码：</dt><dd><input type="text" value="*********"><span>密码由6位以上数字和字母组成</span></dd>
@@ -41,7 +43,7 @@
         <span style="color:#242424">《服务条款和声明》</span>
       </label>
       <div>
-        <button> 立即注册</button>
+        <button onclick="location.href='../index.html'"> 立即注册</button>
       </div>
     </div>
   </div>
