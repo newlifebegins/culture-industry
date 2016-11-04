@@ -1,18 +1,20 @@
 ﻿<!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8">
 		<title>山西文化产业网 - 旅游馆-佛教古建筑</title>
 		<link rel="stylesheet" href="../css/base.css" />
 		<link rel="stylesheet" href="../css/finance.css">
+		<link rel="stylesheet" href="../css/pic.css" />
+		<link rel="stylesheet" href="../css/swiper.css" />
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/topMenu.js"></script>
+		<script type="text/javascript" src="../js/swiper.min.js"></script>
 		<style>
 			.title {border-bottom: 1px solid #ccc;line-height: 50px;}			
 			.title li {display: inline-block;font-size: 16px;color: #bfbfbf;padding: 0 6px;}			
 			.title li a {display: block;color: #3d3d3d;background: width: 165px;height: 34px;line-height: 34px;box-sizing: border-box;text-align: center;}			
-			.analysis {border: none;background: #fff;padding: 20px 0;}			
+			.analysis {border: none;background: #fff;padding: 20px 0;clear: both;}			
 			.analysis h1 {font-weight: normal;color: #2058c2;padding-bottom: 5px;margin-top: 20px;}		
 			.analysis .anaul .anaimg {width: 265px;height: 235px;box-sizing: border-box;padding: 0;}	
 			.anaimg h5 {font-size: 14px;color: #242424;font-weight: normal;text-align: center;line-height: 30px;margin-top: 18px;}			
@@ -20,11 +22,7 @@
 			.analysis .anaul li {margin: 20px 0 0 41px;}			
 			.analysis .anaul li:nth-of-type(4n+1) {margin-left: 0;}			
 			.analysis .anaul h5 {line-height: 26px;font-size: 20px;font-weight: 500;margin-top: 10px;}	
-			.analysis .anaul p {font-size: 14px;color: #242424;text-align: left;line-height: 24px;margin: 10px 0;width: 269px;box-sizing: border-box;}			
-			.page {padding: 50px;text-align: right;padding-right: 0;}			
-			.page li {display: inline-block;font-size: 12px;color: #333;margin: 0 4px;}			
-			.page li a {display: block;font-size: 12px;color: #333;padding: 8px 10px;border: 1px solid #ccc;}			
-			.page li.on a {background: #3398db;color: #fff;}			
+			.analysis .anaul p {font-size: 14px;color: #242424;text-align: left;line-height: 24px;margin: 10px 0;width: 269px;box-sizing: border-box;}					
 			hr {margin-bottom: 15px;}
 		</style>
 	</head>
@@ -120,9 +118,46 @@
 		</div> -->
 		<div id="content">
 			<div class="container clearfix">
-				<div>
-					<img src="../images/news/news1.png" alt="">
+				<div class="clearfix">
+					<div class="left audio-newsl">
+						<div class="pic-title">
+							<h5>第六届 "梨花奖"</h5>
+							<span>2016-09-27 <i>●</i> 来源：山西文化厅 <i>●</i> 作者：李某某 <i>●</i> 23365次浏览</span>
+						</div>
+						<div class="swiper-container audio-container">
+						    <div class="swiper-wrapper">
+						        <div class="swiper-slide">
+						        	<img src="../images/news/audio-banner1.jpg" alt="">
+						        	<!-- <iframe height=498 width=510 src='http://player.youku.com/embed/XMzcxNTM0MTU2' frameborder=0 'allowfullscreen'></iframe> -->
+						        </div>
+						        <div class="swiper-slide">
+						        	<img src="../images/news/audio-banner1.jpg" alt="">
+						        </div>
+						        <div class="swiper-slide">
+						        	<img src="../images/news/audio-banner1.jpg" alt="">
+						        </div>
+						    </div>
+						    <!-- 如果需要分页器 -->
+						    <div class="swiper-pagination"></div>
+						    
+						    <!-- 如果需要导航按钮 -->
+						    <!-- <div class="swiper-button-prev"></div> -->
+						    <!-- <div class="swiper-button-next"></div> -->
+						    
+						    <!-- 如果需要滚动条 -->
+						    <!-- <div class="swiper-scrollbar"></div> -->
+						</div>
+					</div>
+					<div class="right audio-newsr">
+						<h5>热点视频排行</h5>
+						<ul>
+							<li><img src="../images/news/audio1.jpg" alt=""></li>
+							<li><img src="../images/news/audio2.jpg" alt=""></li>
+							<li><img src="../images/news/audio3.jpg" alt=""></li>
+						</ul>
+					</div>
 				</div>
+				
 				<div class="analysis">
 					<h1><img src="../images/news/news2.png" alt="视频列表"></h1>
 					<ul class="anaul">
@@ -227,6 +262,26 @@
 	<script>
 		$(function(){
 			$(".top_menuItem").eq(1).addClass("choose");
+		});
+
+		$(function(){
+			var mySwiper = new Swiper ('.swiper-container', {
+			  direction: 'horizontal',
+			  loop: true,
+			  
+			  // 如果需要分页器
+			  pagination: '.swiper-pagination',
+			  // paginationType: 'fraction',
+			  paginationClickable: true,
+			  
+			  // 如果需要前进后退按钮
+			  // nextButton: '.swiper-button-next',
+			  // prevButton: '.swiper-button-prev',
+			  
+			  // 如果需要滚动条
+			  // scrollbar: '.swiper-scrollbar',
+
+			})
 		});
 	</script>
 </html>

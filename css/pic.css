@@ -25,3 +25,15 @@
 .page li {display: inline-block;font-size: 12px;color: #333;margin: 0 4px;}			
 .page li a {display: block;font-size: 12px;color: #333;padding: 8px 10px;border: 1px solid #ccc;}			
 .page li.on a {background: #3398db;color: #fff;}
+
+.audio-container{padding: 20px 0;}
+.audio-container .swiper-pagination{text-align: right;padding: 0 40px 15px 0;box-sizing: border-box;}
+.audio-container .swiper-pagination-bullet{width: 13px;height: 13px;background: #fff;opacity: 0.8;}
+.audio-container .swiper-pagination-bullet-active{background: #007aff;}
+.audio-container iframe{width: 100%;height: 444px;}
+.audio-newsl{width: 835px;}
+.audio-newsr{width: 310px;}
+.audio-newsr h5{line-height: 30px;padding: 10px 0 10px 0;font-size: 20px;color: #4d4d4d;background: #f5f5f5 url(../img/audio.png) no-repeat 65px center;text-align: center;}
+.audio-newsr ul{padding: 36px;background: #f5f5f5;margin-top: 20px;}
+.audio-newsr ul li{margin-top: 10px;}
+.audio-newsr ul li:first-child{margin-top: 0;}
