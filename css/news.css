@@ -5,14 +5,14 @@
 #news-content table td.col-left .banner-box{width: 814px;border: 1px solid #ccc;}
 #news-content table td.col-left .banner-box img{display: block;}
 #news-content table td.col-right{width: 367px;}
-#news-content table td.col-right form{width: 370px;height: 45px;line-height: 45px;border: 1px solid #ccc;background: #f8f8f8;border-radius: 3px;}
-#news-content table td.col-right input[type="text"]{width: 325px;height: 45px;line-height: 45px;background: transparent;text-indent: 5px;}
+#news-content table td.col-right form{height: 45px;line-height: 45px;border: 1px solid #ccc;background: #f8f8f8;border-radius: 3px;}
+#news-content table td.col-right input[type="text"]{width: 355px;height: 45px;line-height: 45px;background: transparent;text-indent: 5px;}
 #news-content table td.col-right input[type="submit"]{width: 30px;height: 30px;background: url(../images/search.png) no-repeat center;text-indent: -9999px;cursor: pointer;}
 #news-content table td.col-right dl{border: 1px solid #ccc;padding: 9px 12px;box-sizing: border-box;margin-top: 10px;}
 #news-content table td.col-right dl dt{font-size: 20px;color: #4d4d4d;border-bottom: 1px solid #2058c2;padding: 15px 7px;}
 #news-content table td.col-right dl dt a{float: right;font-size: 16px;}
 #news-content table td.col-right dl dd{font-size: 16px;color: #696b76;border-bottom: 1px dashed #eee;line-height: 25px;padding: 6px 0;}
-#news-content table td.col-right dl.img-center{margin: 0 auto;width: 390px;}
+#news-content table td.col-right dl.img-center{margin: 0 auto;}
 #news-content table td.col-right dl.img-center dd{text-align: center;margin-top: 18px;}
 #news-content table td.col-right dl.hot{margin-top: 0;}
 #news-content table td.col-right dl.hot dd{border: none;margin-top: 11px;}
