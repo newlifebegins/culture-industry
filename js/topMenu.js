@@ -56,7 +56,7 @@ $(function(){
 									'</tr>'+
 									'<tr>'+
 										'<td>'+
-											'<a href="#">企业推荐</a>'+
+											'<a href="/culture_industry/news/recommend.html">企业推荐</a>'+
 										'</td>'+
 										'<td>'+
 											'<a href="#">产业研究</a>'+

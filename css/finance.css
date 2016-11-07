@@ -43,8 +43,8 @@
 .yinhang{margin-top: 20px; border:1px solid #eee; clear: both; padding:20px;}
 .yinhang .titp{font-size: 20px; color:#4d4d4d; border-bottom: 1px solid #2058c2; height: 38px; margin-bottom: 20px; }
 .yinhang a{display: inline-block; margin-left: 20px; height: 56px;  margin-right: 75px;}
-.yinhang a .fund{ width:150px; border-radius: 5px; background: #a0a0a0; height:45px;}
-.yinhang a P{margin-top: 12px; text-align: center;}
+.yinhang a .fund{ width:258px; border-radius: 5px; background: #a0a0a0; height:44px;}
+.yinhang a P{margin-top: 12px; text-align: center;font-size: 16px;color: #131926;}
 
 .brandattr{background: #f7f7f7; border:1px solid #eee; padding:15px; margin-bottom: 20px;}
 .brandattr .brandl{margin-bottom: 20px;}

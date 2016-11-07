@@ -63,7 +63,39 @@
 					<div class="article">
 						<h5><span>图片新闻</span></h5>
 						<div class="banner-img">
-							<img src="../images/news/news3.jpg" alt="">
+							<ul id="img-slider">
+								<li class="img1 img">
+									<img src="../images/news/lunbo3.jpg" alt="" style="width: 100%">
+								</li>
+								<li class="img2 img">
+									<img src="../images/news/lunbo2.jpg" alt="" style="width: 100%">
+								</li>
+								<li class="img3 img">
+									<img src="../images/news/lunbo1.jpg" alt="" style="width: 100%">
+								</li>
+								<li class="img4 img">
+									<img src="../images/news/lunbo4.jpg" alt="" style="width: 100%">
+								</li>
+								<li class="img5 img">
+									<img src="../images/news/lunbo5.jpg" alt="" style="width: 100%">
+								</li>
+							</ul>
+							<!-- <img src="../images/news/news3.jpg" alt=""> -->
+							<script>
+								document.addEventListener('readystatechange',function(){
+									if(document.readyState === 'complete'){
+										var img = document.querySelectorAll('.img');
+										var arrs = ['img1','img2','img3','img4','img5'];
+										var lunbo = function(){
+											arrs.push(arrs.shift());
+											for(var i=0;i<img.length;i++){
+												img[i].setAttribute('class','img ' + arrs[i]);
+											}
+										}
+								        setInterval(lunbo,4000);
+									}
+								},false);
+							</script>
 						</div>
 					</div>
 				</td>
@@ -119,16 +151,7 @@
 			</tr>
 			<tr>
 				<td colspan="2">
-					<div class="article">
-						<!-- <h5><span>企业推荐</span></h5> -->
-						<div class="recomment-comp">
-							<img src="../images/news/news18.jpg" alt="">
-							<!-- <img src="../images/news/news14.jpg" alt=""> -->
-							<!-- <img src="../images/news/news15.jpg" alt=""> -->
-							<!-- <img src="../images/news/news16.jpg" alt=""> -->
-							<!-- <img src="../images/news/news17.jpg" alt=""> -->
-						</div>
-					</div>
+					<img src="../images/news/news18.jpg" alt="">
 				</td>
 			</tr>
 			<tr>
@@ -189,3 +212,4 @@
 </script>
 
 </html>
+

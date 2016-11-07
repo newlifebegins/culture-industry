@@ -10,7 +10,7 @@
 .cardparas .prodimg{ float: left; width:378px; height: 328px; }
 .cardparas .dlprod{ margin-left: 424px; line-height: 60px;font-size: 16px;color: #5d5d5d; }
 .cardparas .dlprod dt,.cardparas .dlprod dd{ min-height: 60px;}
-.cardparas .dlprod dt{ float: left; width: 108px; position: relative; }
+.cardparas .dlprod dt{ float: left; width: 80px; position: relative; }
 .cardparas .dlprod dt:after{ position: absolute; content: ":"; right: 0px;}
 .cardparas .dlprod dd{ margin-left: 118px;}
 .cardparas .dlprod dd h1{ font-size: 24px; font-weight: normal; color: #2e2e32;}
@@ -21,12 +21,14 @@
 .cardhuitit span{ color: #275aba; font-size: 16px; margin-left: 16px; }
 .cardhuitit strong:after{ height: 32px; width: 1px; background: #e4e4e4; top: 12px; right: 0px; position: absolute; content: "";}
 .dlcardinfo{}
-.dlcardinfo dt{ border-bottom: 2px solid #275aba;}
-.dlcardinfo dt a{ background:#275aba; border-radius: 4px 4px 0px 0px; line-height: 28px; display: inline-block; margin-left:56px; font-size: 15px; color: #fff;
+.dlcardinfo dt{ border-bottom: 2px solid #6c6968;}
+.dlcardinfo dt a{ background:#6c6968; border-radius: 4px 4px 0px 0px; line-height: 28px; display: inline-block; margin-left:56px; font-size: 15px; color: #fff;
     padding: 0px 24px; position: relative;}
+.dlcardinfo dt a.on{background:#275aba;}
 .dlcardinfo dt a:after{ content: ""; position: absolute; border-width:6px 6px 0px 6px;
-    border-style:solid; border-color:#275aba transparent transparent transparent; bottom: -8px; left: 45%;}
-.dlcardinfo dd{ padding: 38px 30px; font-size:18px; color: #6c6968; line-height: 30px; }
+    border-style:solid; border-color:#6c6968 transparent transparent transparent; bottom: -8px; left: 45%;}
+.dlcardinfo dt a.on:after{border-color:#275aba transparent transparent transparent;}
+.dlcardinfo dd{ padding: 38px 30px; font-size:18px; color: #6c6968; line-height: 30px;min-height: 430px; }
 .dlcardinfo dd cite{display: block; font-style: normal;}
 .dlcardinfo dd h5{ font-size: 18px; font-weight: normal; line-height: 50px;}
 .dlcardinfo dd p{ text-indent: 2em;}
