@@ -81,6 +81,19 @@
 .notis .notis-right li{text-align: center;margin-top: 16px;}
 .notis .notis-right p{font-size: 16px;color: #696b76;}
 
+.level32{background: #f6f5f5;padding: 20px 0;border-top: 1px solid #4480df;}
+.level32 h5{font-size: 18px;color: #e98500;font-weight: normal;border-left: 5px solid #e98500;padding-left: 10px;}
+.level32 ul{padding: 0 70px;}
+.level32 ul li{margin-top: 35px;}
+.level32 ul h6{font-size: 14px;color: #155ed7;font-weight: normal;}
+.level32 ul dl{border: 1px solid #ccc;margin-top: 10px;padding-right: 15px;background: #fff;}
+.level32 ul dl dt{float: left;}
+.level32 ul dl dt img{display: block;}
+.level32 ul dl dd{margin-left: 354px;}
+.level32 ul dl dd h1{font-size: 16px;color: #000;font-weight: normal;margin: 20px 0 10px;}
+.level32 ul dl dd p{font-size: 14px;color: #393939;line-height: 30px;}
+.level32 ul dl dd a{font-size: 16px;color: #333333;display: block;text-align: right;margin-top: 20px;}
+
 .page {padding: 50px;text-align: center;padding-right: 0;}			
 .page li {display: inline-block;font-size: 12px;color: #333;margin: 0 4px;}			
 .page li a {display: block;font-size: 12px;color: #333;padding: 8px 10px;border: 1px solid #ccc;}			

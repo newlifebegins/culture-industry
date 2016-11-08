@@ -5,11 +5,13 @@
     <title>山西文化产业网 - 产业项目</title >
     <link rel="stylesheet" href="../css/base.css" />   
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/layer/layer.js"></script>
   </head>
 <body>
 <div id="top">
     <div class="container clearfix">
-        <ul class="right">
+        <ul class="left">
             <li><a href="../index.html">网站首页</a></li>
             <li><span>|</span></li>
             <li><a href="#">收藏本站</a></li>
@@ -17,9 +19,9 @@
     </div>
 </div>
 <div class="header logo-with-line">
-			<div class="content">
-				<a href="../index.html" class="left logo"></a>
-			</div>
+	<div class="content">
+		<a href="../index.html" class="left logo"></a>
+	</div>
 </div>
 <div id="content">
   <div class="box-with-border">
@@ -43,7 +45,7 @@
         <span style="color:#242424">《服务条款和声明》</span>
       </label>
       <div>
-        <button onclick="location.href='../index.html'"> 立即注册</button>
+        <button class="btn">立即注册</button>
       </div>
     </div>
   </div>
@@ -68,5 +70,17 @@
         <p>邮编：sxwhcyw@163.com</p>
     </div>
 </div>
-  </body>
+</body>
+<script type="text/javascript">
+    $(function(){
+        $(".btn").on("click",function(){
+            layer.msg('恭喜你，注册成功',{                
+                end: function(){
+                    window.location.href = 'login-company.html';
+                }
+            });
+            return false;
+        });
+    });
+</script>
 </html>

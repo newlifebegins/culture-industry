@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>山西文化产业网 - 产业项目</title >
-    <link rel="stylesheet" href="../css/base.css" />     
+    <link rel="stylesheet" href="../css/base.css" />
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/layer/layer.js"></script>
   </head>
 <body>
 <div id="top">
     <div class="container clearfix">
-        <ul class="right">
+        <ul class="left">
             <li><a href="../index.html">网站首页</a></li>
             <li><span>|</span></li>
             <li><a href="#">收藏本站</a></li>
@@ -25,7 +27,7 @@
     <div class="register">
     <h2> 个人用户注册</h2>
     <dl class="clearfix">
-      <dt><i>*</i>用户名：</dt><dd><input type="text" value="山西文化产业网" placeholder=""><span>请输入企业名称</span></dd>
+      <dt><i>*</i>用户名：</dt><dd><input type="text" value="山西文化产业网" placeholder=""><span>请输入用户名</span></dd>
       <!-- <dt><i>*</i>企业法人：</dt><dd><input type="text" value="山西文化产业网" placeholder=""><span>请输入法人名称</span></dd> -->
         <dt><i>*</i>手机号：</dt><dd><input type="text" value="12345678951"><span>请输入手机号</span></dd>
         <!-- <dt><i>*</i>企业邮箱：</dt><dd><input type="text" value="12345678951@yahoo.com"><span>请输入企业邮箱</span></dd> -->
@@ -41,7 +43,7 @@
         <span style="color:#242424">《服务条款和声明》</span>
       </label>
       <div>
-        <button onclick="location.href='../index.html'"> 立即注册</button>
+        <button class="btn">立即注册</button>
       </div>
     </div>
   </div>
@@ -66,5 +68,17 @@
         <p>邮编：sxwhcyw@163.com</p>
     </div>
 </div>
-  </body>
+</body>
+<script type="text/javascript">
+    $(function(){
+        $(".btn").on("click",function(){
+            layer.msg('恭喜你，注册成功',{                
+                end: function(){
+                    window.location.href = 'login-personal.html';
+                }
+            });
+            return false;
+        });
+    });
+</script>
 </html>
