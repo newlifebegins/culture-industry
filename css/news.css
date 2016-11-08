@@ -32,18 +32,17 @@
 #news-content .article dl dd a{color: #696b76;}
 #news-content .article dl dd a:hover{color: #333;}
 #news-content .article dl dd i{font-style: normal;margin-right: 20px;color: #1c62e4;font-size: 12px;position: relative;top: -2px;}
-#news-content .article .banner-img{margin-top: 50px;min-height: 305px;position: relative;perspective:1200px;}
-/*#news-content .article .banner-img #img-slider{position: relative;}*/
-#news-content .article .banner-img #img-slider .img{transition: all 2s linear;width: 426px;height: 297px;position: absolute;left: 50%;top: 50%;margin-top: -148.5px;margin-left: -213px;}
-#news-content .article .banner-img #img-slider .img1{transform:translateX(-200px) translateZ(-300px);z-index: 3;}
-#news-content .article .banner-img #img-slider .img1 img{transform:translateZ(-300px);z-index: 3;position: absolute;}
-#news-content .article .banner-img #img-slider .img2{transform:translateX(-100px) translateZ(-200px);z-index: 4;}
-#news-content .article .banner-img #img-slider .img2 img{transform:translateZ(-200px);z-index: 4;}
-#news-content .article .banner-img #img-slider .img3{z-index: 5;}
-#news-content .article .banner-img #img-slider .img4{transform:translateX(100px) translateZ(-200px);z-index: 4;}
-#news-content .article .banner-img #img-slider .img4 img{transform:translateZ(-200px);z-index: 4;}
-#news-content .article .banner-img #img-slider .img5{transform:translateX(200px) translateZ(-300px);z-index: 3;}
-#news-content .article .banner-img #img-slider .img5 img{transform:translateZ(-300px);z-index: 3;}
+#news-content .article .banner-img{margin-top: 50px;min-height: 305px;position: relative;}
+#focus_Box{position:relative;width:710px;height:308px;margin:20px auto;}
+#focus_Box ul{position:relative;width:710px;height:308px}
+#focus_Box li{z-index:0;position:absolute; width:0px;background:#787878;height:0px;top:146px;cursor:pointer;left:377px;border-radius:4px;}
+#focus_Box li img{width:100%;background:url(../images/loading.gif) no-repeat center 50%;height:100%;vertical-align:top}
+#focus_Box .prev,#focus_Box .next{display:block;z-index:100;overflow:hidden;cursor:pointer;position:absolute;width:52px;height:52px;top:131px;}
+#focus_Box .prev{background:url(../images/btn.png) left bottom no-repeat;left:0px}
+#focus_Box .next{background:url(../images/btn.png) right bottom no-repeat;right:0px} 
+#focus_Box .prev:hover{background-position:left top;}
+#focus_Box .next:hover{background-position:right top;}
+
 #news-content .article .float-left{float: left;width: 380px;}
 #news-content .article .float-left dd{margin-left: 0;padding-left: 15px;}
 #news-content .article .float-left dl{padding-top: 5px;}
@@ -65,3 +64,24 @@
 .hotspot-left p{font-size: 16px;color: #696b76;line-height: 32px;}
 .hotspot-more{font-size: 16px;color: #696b76;background: #f5f5f5;border-top: 1px solid #2058c2;padding: 20px 40px 20px 8px;font-weight: normal;margin: 16px 0;}
 .hotspot-more a{float: right;color: #696b76;}
+
+.notis{border: 1px solid #ccc;padding: 18px;}
+.notis .notis-left{width: 778px;}
+.notis .notis-left h5{font-size: 20px;color: #4d4d4d;padding-bottom: 12px;border-bottom: 1px solid #2058c2;font-weight: normal;text-indent: 5px;}
+.notis .notis-left h5 a{float: right;font-size: 16px;color: #656565;position: relative;top: 5px;}
+.notis .notis-left ul{padding: 40px 0;}
+.notis .notis-left li{border-bottom: 1px solid #f0f0f0;line-height: 40px;font-size: 16px;color: #696b76;}
+.notis .notis-left li:last-child{border-bottom: none;}
+.notis .notis-left li a{font-size: 16px;color: #333;}
+.notis .notis-left li a:hover{color: #696b76;}
+.notis .notis-left li em{font-style: normal;font-size: 18px;color: #4480df;margin-right: 7px;position: relative;top: -2px;}
+.notis .notis-left li span{float: right;}
+.notis .notis-right{width: 350px;}
+.notis .notis-right h5{font-size: 20px;color: #4d4d4d;padding-bottom: 12px;border-bottom: 1px solid #f0f0f0;font-weight: normal;text-indent: 5px;}
+.notis .notis-right li{text-align: center;margin-top: 16px;}
+.notis .notis-right p{font-size: 16px;color: #696b76;}
+
+.page {padding: 50px;text-align: center;padding-right: 0;}			
+.page li {display: inline-block;font-size: 12px;color: #333;margin: 0 4px;}			
+.page li a {display: block;font-size: 12px;color: #333;padding: 8px 10px;border: 1px solid #ccc;}			
+.page li.on a {background: #3398db;color: #fff;}

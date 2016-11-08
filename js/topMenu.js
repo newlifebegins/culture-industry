@@ -215,7 +215,7 @@ $(function(){
 									'</tr>'+
 									'<tr>'+
 										'<td>'+
-											'<a href="#">商家联盟</a>'+
+											'<a href="/culture_industry/card/yuda.html">商家联盟</a>'+
 										'</td>'+
 									'</tr>'+
 									'<tr>'+
