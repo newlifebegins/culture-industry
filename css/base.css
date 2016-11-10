@@ -228,7 +228,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .menu_Zx tr:first-child td{border-top: none;}
 
 
-.culture-product{border: 1px solid #ccc;padding: 30px 20px 10px;}
+.culture-product{border: 1px solid #ccc;padding: 30px 20px 10px;margin-top: 20px;}
 .culture-product h5{border-bottom: 1px solid #2058c2;padding: 0 13px 10px;}
 .culture-product h5 a{float: right;font-size: 16px;color: #333;line-height: 56px;}
 .culpro-container{width: 817px;height: 598px;margin: 20px 0 0;float: left;}

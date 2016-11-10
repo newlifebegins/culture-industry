@@ -113,7 +113,7 @@ $(function(){
 								'<tbody>'+
 									'<tr>'+
 										'<td>'+
-											'<a href="#">平台概况</a>'+
+											'<a href="/culture_industry/industrial/profile.html">平台概况</a>'+
 										'</td>'+
 									'</tr>'+
 									'<tr>'+
