@@ -23,10 +23,10 @@
 .dlcardinfo{}
 .dlcardinfo dt{ border-bottom: 2px solid #6c6968;}
 .dlcardinfo dt a{ background:#6c6968; border-radius: 4px 4px 0px 0px; line-height: 28px; display: inline-block; margin-left:56px; font-size: 15px; color: #fff;
-    padding: 0px 24px; position: relative;}
+    padding: 0px 24px; position: relative;top: 2px;}
 .dlcardinfo dt a.on{background:#275aba;}
 .dlcardinfo dt a:after{ content: ""; position: absolute; border-width:6px 6px 0px 6px;
-    border-style:solid; border-color:#6c6968 transparent transparent transparent; bottom: -8px; left: 45%;}
+    border-style:solid; border-color:#6c6968 transparent transparent transparent; bottom: -6px; left: 45%;}
 .dlcardinfo dt a.on:after{border-color:#275aba transparent transparent transparent;}
 .dlcardinfo dd{ padding: 38px 30px; font-size:18px; color: #6c6968; line-height: 30px;min-height: 430px; }
 .dlcardinfo dd cite{display: block; font-style: normal;}

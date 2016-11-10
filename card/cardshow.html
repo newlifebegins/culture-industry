@@ -69,21 +69,40 @@
 
 							<dl class="dlcardinfo">
 								<dt>
-                            <a class="on">演出信息</a>
-                            <a>交通路线</a>
-                            <a>剧组图片</a>
-                            <a>付款方式</a>
-                        </dt>
+		                            <a class="on" href="#">演出信息</a>
+		                            <a href="#">交通路线</a>
+		                            <a href="#">剧组图片</a>
+		                            <a href="#">付款方式</a>
+                        		</dt>
 								<dd>
 									<cite>
-                                <h5> 剧情简介：</h5>
-                                <!-- <p>正在建设中</p> -->
-                                <!-- <h5>项目简介:</h5> -->
-                                <p>现代京剧《党的女儿》以江西为故事发生地，描写红军长征期间、白色恐怖下的普通共产党员在极其艰险的环境下建立基层党组织，坚持顽强斗争，讴歌了年轻的基层女共产党员为了完成革命任务坚守革命信仰而献身的精神。</p>
-                                <p>著名导演杨小青主持创作，导演由杨小青、徐孟珂担任，唱腔设计邱小波，音乐总监张顺翔，作曲汪珅，舞美设计孙大庆，灯光设计周正平，可谓大腕云集。一批国家京剧院新生代优秀青年演员付佳、郭霄、查思娜、郭凡嘉、田磊、李博、王越、胡滨以及小演员布尼王茜等青春荟萃，此外剧组还邀请了党史、京剧界的专家坐镇把关。</p>
-                            </cite>
+                                		<h5> 剧情简介：</h5>
+                                		<!-- <p>正在建设中</p> -->
+                                		<!-- <h5>项目简介:</h5> -->
+                                		<p>现代京剧《党的女儿》以江西为故事发生地，描写红军长征期间、白色恐怖下的普通共产党员在极其艰险的环境下建立基层党组织，坚持顽强斗争，讴歌了年轻的基层女共产党员为了完成革命任务坚守革命信仰而献身的精神。</p>
+                                		<p>著名导演杨小青主持创作，导演由杨小青、徐孟珂担任，唱腔设计邱小波，音乐总监张顺翔，作曲汪珅，舞美设计孙大庆，灯光设计周正平，可谓大腕云集。一批国家京剧院新生代优秀青年演员付佳、郭霄、查思娜、郭凡嘉、田磊、李博、王越、胡滨以及小演员布尼王茜等青春荟萃，此外剧组还邀请了党史、京剧界的专家坐镇把关。</p>
+                            		</cite>
 								</dd>
-
+								<dd hidden>
+									<cite>
+                                		<h5> 交通路线：</h5>
+                                		<img src="../images/map1.jpg" alt="">
+                                		<img src="../images/map2.jpg" alt="">
+                            		</cite>
+								</dd>
+								<dd hidden>
+									<cite>
+                                		<h5> 剧组图片：</h5>
+                                		<img src="../images/image1.jpg" alt="">
+                            		</cite>
+								</dd>
+								<dd hidden>
+									<cite>
+                                		<h5> 付款方式：</h5>
+                                		<p style="font-size: 14px;color: #5d5d5e;">&nbsp;&nbsp;支持多家网上银行、支付平台（支付宝、快钱、银联、微信支付等）在线支付 </p>
+                                		<img src="../images/images2.jpg" alt="">
+                            		</cite>
+								</dd>
 							</dl>
 						</div>
 					</div>
@@ -148,6 +167,13 @@
 	<script>
 	  $(function(){
 	      $(".top_menuItem").eq(6).addClass("choose");
+
+	      $(".dlcardinfo dt").find("a").on("click",function(){
+	      	$(this).addClass("on").siblings("a").removeClass("on");
+	      	var index = $(this).index();
+	      	$(".dlcardinfo").find("dd").eq(index).show().siblings("dd").hide();
+	      	return false;
+	      });
 	  });
 	</script>
 </html>
