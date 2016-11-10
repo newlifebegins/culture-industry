@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>山西文化产业网</title>
+		<title>山西文化产业网</title>		
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/swiper.css" />		
 		<link rel="stylesheet" href="css/style.css" />
@@ -71,17 +71,38 @@
 					</a>
 				</div>
 			</div>
-			<img src="img/indexContent2.jpg" usemap="#Map" style="margin-top: 20px;" />
-            <map name="Map">
-              <area shape="rect" coords="1117,49,1183,83" href="product_show/index.html">
-            </map>
+			<div class="culture-product clearfix">
+				<h5><img src="images/culpro.png" alt="文化产品展示馆"><a href="product_show/index.html">更多>></a></h5>
+				<div class="culpro-container swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				        	<img src="images/culpro1.jpg" alt="">
+				        	<h1>山西特色农产品 展示直销中心开业</h1>
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="images/culpro1.jpg" alt="">
+				        	<h1>山西特色农产品 展示直销中心开业</h1>
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="images/culpro1.jpg" alt="">
+				        	<h1>山西特色农产品 展示直销中心开业</h1>
+				        </div>
+				    </div>
+				    <div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+				</div>
+				<div class="cul-right">
+					<div><img src="images/culpro2.jpg" alt=""></div>
+					<div><img src="images/culpro3.jpg" alt=""></div>
+				</div>
+			</div>
 			<img src="images/3.jpg" usemap="#Map3" style="margin-top: 20px;width: 100%;" />
-            <map name="Map3">
-              <area shape="rect" coords="695,67,752,245" href="news/show.html">
-              <area shape="rect" coords="782,67,836,245" href="#">
-              <area shape="rect" coords="867,67,922,246" href="#">
-              <area shape="rect" coords="952,66,1007,245" href="news/level32.html">
-            </map>
+	        <map name="Map3">
+	          <area shape="rect" coords="576,74,666,171" href="news/show.html">
+	          <area shape="rect" coords="676,74,768,170" href="#">
+	          <area shape="rect" coords="777,73,868,170" href="#">
+	          <area shape="rect" coords="879,75,972,171" href="news/level32.html">
+	        </map>
 		</div>
 
 		<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -99,6 +120,12 @@
 					spaceBetween: 30,
 					loop: true
 				});
+
+				var mySwiper = new Swiper('.culpro-container',{
+					prevButton:'.swiper-button-prev',
+					nextButton:'.swiper-button-next',
+				})
+
 			});
 
 			$(function(){

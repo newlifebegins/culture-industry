@@ -81,6 +81,24 @@
 .notis .notis-right li{text-align: center;margin-top: 16px;}
 .notis .notis-right p{font-size: 16px;color: #696b76;}
 
+.localdynamic{border: none;}
+.localdynamic .notis-left{border: 1px solid #ccc;width: 880px;}
+.localdynamic .notis-left h5{line-height: 54px;background: #e2ebf2;border: none;padding: 0;color: #4674c1;position: relative;padding-left: 30px;}
+.localdynamic .notis-left h5:before{content: '';position: absolute;width: 5px;height: 24px;background: #295ab9;left: 13px;top: 15px;}
+.localdynamic .notis-left .local{padding: 0 20px;}
+.localdynamic .notis-left .local li{line-height: 50px;text-indent: 10px;}
+.localdynamic .notis-left .local li:last-child{border-bottom: 1px solid #f0f0f0;}
+.localdynamic .notis-left .local li em{color: #333;font-size: 12px;}
+.localdynamic .notis-left .local li span{background: url(../images/time.png) no-repeat left center;padding-left: 15px;}
+.localdynamic .notis-left .page li{line-height: normal;border-bottom: none;}
+.localdynamic .notis-left .page li a{font-size: 12px;}
+.localdynamic .notis-right{border: 1px solid #ccc;width: 260px;}
+.localdynamic .notis-right h5{line-height: 54px;padding-bottom: 0;text-indent: 20px;}
+.localdynamic .notis-right ul{padding: 20px 0 78px;}
+.localdynamic .notis-right ul li{line-height: 36px;text-align: left;text-indent: 5px;font-size: 14px;margin-top: 0;}
+.localdynamic .notis-right ul li span{display: inline-block;width: 16px;height: 12px;line-height: 12px;background: #707070;font-size: 12px;color: #fff;margin-right: 10px;}
+.localdynamic .notis-right ul li.on span{background: #ce0707;}
+
 .level32{background: #f6f5f5;padding: 20px 0;border-top: 1px solid #4480df;}
 .level32 h5{font-size: 18px;color: #e98500;font-weight: normal;border-left: 5px solid #e98500;padding-left: 10px;}
 .level32 ul{padding: 0 70px;}

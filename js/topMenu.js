@@ -35,7 +35,7 @@ $(function(){
 											'<a href="/culture_industry/news/list.html">产业要闻</a>'+
 										'</td>'+
 										'<td>'+
-											'<a href="#">地市动态</a>'+
+											'<a href="/culture_industry/news/localdynamic.html">地市动态</a>'+
 										'</td>'+
 									'</tr>'+
 									'<tr>'+
@@ -252,6 +252,10 @@ $(function(){
         		'<p>邮编：sxwhcyw@163.com</p>'+
     		'</div>'+
 		'</div>'
+		);
+
+		$("head").append(
+			'<link rel="Shortcut Icon" href="/culture_industry/favicon.ico" />'
 		);
 
 });

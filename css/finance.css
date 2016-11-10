@@ -67,7 +67,11 @@
 .analysis .anaul li .allp p{color:#898989; line-height:25px;}
 .analysis .anaul li .allp .entryname{font-size: 14px; clolor:#242424; margin-top: 10px;}
 
-
+.area-map{margin: 34px 0 45px;}
+.area-map .map img:first-child{border: 1px solid #4480df;margin-right: 20px;}
+.area-map .desc{width: 490px;}
+.area-map .desc h5{font-size: 16px;color: #000;font-weight: normal;}
+.area-map .desc p{font-size: 14px;color: #242424;margin-top: 36px;text-indent: 2em;line-height: 23px;}
 
 
 
