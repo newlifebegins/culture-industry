@@ -123,7 +123,7 @@ $(function(){
 									'</tr>'+
 									'<tr>'+
 										'<td>'+
-											'<a href="/culture_industry/industrial/detail3.html">产业项目发布</a>'+
+											'<a class="publish" href="/culture_industry/industrial/detail3.html">产业项目发布</a>'+
 										'</td>'+
 									'</tr>'+
 									'<tr>'+
@@ -257,6 +257,15 @@ $(function(){
 		$("head").append(
 			'<link rel="Shortcut Icon" href="/culture_industry/favicon.ico" />'
 		);
+
+		$(".publish").on("click",function(){
+		    layer.msg('请先登录',{
+		        end: function(){
+		            window.location.href = '/culture_industry/reg_login/login-personal-pub.html';
+		        }
+		    });
+		    return false;
+		});
 
 });
 

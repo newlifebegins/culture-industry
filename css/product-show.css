@@ -61,3 +61,14 @@
 .maoli{border: 1px solid #ccc;padding: 12px 20px;margin: 20px auto 38px;box-sizing: border-box;}
 .maoli h5{border-bottom: 1px solid #2058c2;padding-bottom: 14px;padding-left: 5px;font-size: 18px;color: #4d4d4d;font-weight: normal;}
 .maoli div{width: 1148px;margin: 14px auto 0;}
+
+
+.travel{background: #f7f7f7;padding: 25px;}
+.travel dl{margin-top: 34px;}
+.travel dl:first-child{margin-top: 0;}
+.travel dl dt{width: 471px;height: 471px;padding: 10px;background: #fff;border: 1px solid #ccc;float: left;box-sizing: border-box;}
+.travel dl dt h5{font-size: 22px;color: #222;font-weight: normal;text-align: center;margin-top: 10px;}
+.travel dl dd{float: right;width: 672px;}
+.travel dl dd li{float: left;width: 212px;height: 227px;background: #fff;border: 1px solid #ccc;padding: 10px;box-sizing: border-box;margin: 0 0 0 10px;}
+.travel dl dd li:nth-last-of-type(1),.travel dl dd li:nth-last-of-type(2),.travel dl dd li:nth-last-of-type(3){margin-top: 17px;}
+.travel dl dd li h5{font-size: 12px;color: #242424;margin-top: 5px;font-weight: normal;text-align: center;}

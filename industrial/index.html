@@ -5,6 +5,7 @@
     <title>山西文化产业网 - 产业项目</title >
     <link rel="stylesheet" href="../css/base.css" />     
     <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/layer/layer.js"></script>
 	<script type="text/javascript" src="../js/topMenu.js"></script>
   </head>
 <body>
@@ -14,7 +15,7 @@
         <div class="left"><img src="../images/b1.jpg" /></div>
         <div class="right">
             <div style="margin-top: 15px;"><a href=""><img src="../images/b2.jpg" /></a></div>
-            <div style="margin-top: 15px;"><a href="detail3.html"><img src="../images/b3.jpg" /></a></div>
+            <div style="margin-top: 15px;"><a href="detail3.html" class="publish"><img src="../images/b3.jpg" /></a></div>
             <div style="margin-top: 15px;"><a href=""><img src="../images/b4.jpg" /></a></div>
         </div>
         <div><img src="../images/b5.jpg" /></div>
@@ -30,6 +31,14 @@
   <script>
   	$(function(){
   		$(".top_menuItem").eq(3).addClass("choose");
+        $(".publish").on("click",function(){
+            layer.msg('请先登录',{
+                end: function(){
+                    window.location.href = '/culture_industry/reg_login/login-personal-pub.html';
+                }
+            });
+            return false;
+        });
   	});
   </script>
 </html>

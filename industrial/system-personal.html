@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>山西文化产业网 - 产业项目</title >
+    <link rel="stylesheet" href="../css/base.css" />  
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/topMenu.js"></script>
+  </head>
+<body>
+<div id="nav">
+    <div class="container">
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><span>></span></li>
+            <li><a href="index.html">产业项目</a></li>
+            <li><span>></span></li>
+            <li><a href="#">发布系统</a></li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+    <div class="container industry clearfix">
+        <div class="industry-left">
+            <h2><img src="../images/industry.png" alt="个人中心"></h2>
+            <ul>
+                <li><a href="#"><span>●</span>发布系统</a></li>
+            </ul>
+        </div>
+        <div class="industry-right">
+            <h5><span>发布系统</span></h5>
+            <dl class="clearfix">
+                <dt>企业名称：</dt><dd><input type="text" value="深圳波西房地产开发公司" placeholder=""></dd>
+                <dt>项目名称：</dt><dd><input type="text" value="深圳波西房地产开发公司" placeholder=""></dd>
+                <dt>项目类别：</dt>
+                <dd>
+                    <select name="" id="" >
+                        <option value="请选择">请选择</option>
+                        <option value="新闻出版发行">新闻出版发行</option>
+                        <option value="广播电视电影服务">广播电视电影服务</option>
+                        <option value="文化艺术服务">文化艺术服务</option>
+                        <option value="文化信息传输服务">文化信息传输服务</option>
+                        <option value="文化创意和设计服务">文化创意和设计服务</option>
+                        <option value="文化休闲娱乐服务">文化休闲娱乐服务</option>
+                        <option value="工艺美术品的生产">工艺美术品的生产</option>
+                        <option value="文化产品生产的辅助生产">文化产品生产的辅助生产</option>
+                        <option value="文化用品的生产">文化用品的生产</option>
+                        <option value="文化专用设备的生产">文化专用设备的生产</option>
+                    </select>
+                </dd>
+                <dt>项目投资总额：</dt><dd><input type="text" value="1000万"><i>(万元)</i></dd>
+                <dt>项目负责人：</dt><dd><input type="text" value="王俊"></dd>
+                <dt>联系电话：</dt><dd><input type="text" value="13956348921"></dd>
+                <dt>项目所在地：</dt><dd><input type="text" value="深圳市南山区科技园南区R2-B"></dd>
+                <dt>项目简介：</dt><dd><input type="text" value="深圳波西房地产开发公司"></dd>
+                <dt>项目阶段：</dt>
+                <dd>
+                    <select name="" id="" >
+                        <option value="请选择">请选择</option>
+                        <option value="策划立项">策划立项</option>
+                        <option value="建设实施">建设实施</option>
+                        <option value="竣工达产">竣工达产</option>
+                        <option value="项目续建">项目续建</option>
+                    </select>
+                </dd>
+                <dt>项目前景：</dt><dd><textarea name="" id="" cols="30" rows="10" placeholder="实现与客户双赢"></textarea></dd>
+                <dt>项目图片：</dt><dd class="img"><input type="text" value=""><span>*（图片大小，分辨率，格式要求）</span></dd>
+                <dt>进入投融资项目库：</dt><dd><input type="radio" id="yes" name="judge" value="1" checked="checked"/><label for="yes">是</label><input type="radio" id="no" name="judge" value="0"/><label for="no">否</label></dd>
+                <dd class="btn"><a href="#" onclick="openurl()">确定</a><a href="detail5.html">取消</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>
+    function openurl(){
+         var radios=document.getElementsByName("judge");
+         
+         for(var i=0;i<radios.length;i++){
+              if(radios[i].checked){
+                var n=radios[i].value;
+                
+                if(n==1){
+                    window.location.href="system-yes-personal.html"
+                }
+                else if(n==0){
+                    location.href="detail-personal.html"
+                }
+              }
+         }
+    }
+</script>
+<script>
+    $(function(){
+        $(".top_menuItem").eq(3).addClass("choose");
+    });
+</script>
+
+</html>
