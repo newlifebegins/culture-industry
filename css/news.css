@@ -99,6 +99,12 @@
 .localdynamic .notis-right ul li span{display: inline-block;width: 16px;height: 12px;line-height: 12px;background: #707070;font-size: 12px;color: #fff;margin-right: 10px;}
 .localdynamic .notis-right ul li.on span{background: #ce0707;}
 
+
+.research h5{background: url(../img/audio.png) no-repeat 50px center;text-align: center;}
+.localdynamic .notis-right.research ul li{text-indent: 0;padding-left: 5px;}
+.localdynamic .notis-right.research ul li.on span{background: #3398db;}
+.localdynamic .notis-right.research ul li span{background: #cdcdcd;text-align: center;}
+
 .level32{background: #f6f5f5;padding: 20px 0;border-top: 1px solid #4480df;}
 .level32 h5{font-size: 18px;color: #e98500;font-weight: normal;border-left: 5px solid #e98500;padding-left: 10px;}
 .level32 ul{padding: 0 70px;}
@@ -111,6 +117,23 @@
 .level32 ul dl dd h1{font-size: 16px;color: #000;font-weight: normal;margin: 20px 0 10px;}
 .level32 ul dl dd p{font-size: 14px;color: #393939;line-height: 30px;}
 .level32 ul dl dd a{font-size: 16px;color: #333333;display: block;text-align: right;margin-top: 20px;}
+
+.resource{background: #f6f5f5;border-top: 1px solid #4480df;padding: 28px 0 0;}
+.resource h5{font-size: 18px;font-weight: normal;color: #e98500;border-left: 7px solid #e98500;padding-left: 5px;}
+.resource ul{padding: 40px 10px;}
+.resource li{float: left;padding: 31px;background: #fff;text-align: center;margin: 20px;}
+.resource li h1{font-size: 18px;font-weight: normal;color: #000;margin-top: 15px;}
+.resource1{border: 1px solid #ccc;margin-top: 40px;}
+.resource1 h5{background: #e2ebf2;font-size: 18px;font-weight: normal;color: #0140b5;line-height: 56px;text-indent: 12px;}
+.resource1 h5 span{border-left: 3px solid #0140b5;padding-left: 10px;}
+.resource1 ul{padding: 0 16px;}
+.resource1 ul li{border-bottom: 1px dashed #ccc;line-height: 52px;font-size: 16px;color: #626262;text-indent: 8px;}
+.resource1 ul li:last-child{border-bottom: none;}
+.resource1 ul li span{font-size: 12px;margin-right: 10px;position: relative;top: -1px;}
+
+.link-a{position: relative;}
+.link-a div{position: absolute;width: 1200px;height: 338px;top: 20px;left: 0;}
+.link-a div a{width: 393px;height: 132px;float: left;margin: 26px 0 0 7px;}
 
 .page {padding: 50px;text-align: center;padding-right: 0;}			
 .page li {display: inline-block;font-size: 12px;color: #333;margin: 0 4px;}			
