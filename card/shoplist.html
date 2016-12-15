@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>山西文化产业网 - 产业项目</title>		
+		<title>山西文化产业网 - 优惠信息</title>		
 		<link rel="stylesheet" href="../css/base.css" />
 		<link rel="stylesheet" href="../css/card.css" />
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
@@ -19,9 +19,9 @@
 				<ul class="right">
 					<li><a href="../reg_login/login-personal.html">登录</a></li>
 					<li><span> | </span></li>
-					<li><a href="../reg_login/register-personal.html">个人注册</a></li>
-					<li><span> | </span></li>
-					<li><a href="../reg_login/register-company.html">企业注册</a></li>
+					<li><a href="../reg_login/register-personal.html">注册</a></li>
+					<!-- <li><span> | </span></li>
+					<li><a href="../reg_login/register-company.html">企业注册</a></li> -->
 				</ul>
 			</div>
 		</div>
@@ -243,7 +243,7 @@
 
 			</div>
 		</div>
-		<div id="nav">
+		<div id="nav" class="index_Search">
 			<div class="container">
 				<ul>
 					<li>
@@ -255,9 +255,15 @@
 					</li>
 					<li><span>></span></li>
 					<li>
-						<a href="#">消费攻略</a>
+						<a href="#">优惠信息</a>
 					</li>
 				</ul>
+				<form action="" style="text-align: right;">
+		            <input type="text" placeholder="输入您要搜索的关键词" />
+		            <a href="">搜索 | </a>
+		            <a href="">高级搜索</a>
+		            <input type="search" style="background: url(../img/icon_Search.png) no-repeat center;"/>
+		        </form>
 			</div>
 		</div>
 		<div id="content">
@@ -265,18 +271,19 @@
 				<div class="listbox clearfix">
 					<div class="listlf">
 						<div class="tit clearfix">
-							<h5>消费攻略</h5>
+							<h5>热门信息</h5>
 							<ul>
 								<li class="on"><a href="#">综合</a></li>
 								<li><a href="#">按热门<img src="../images/down.png" alt=""></a></li>
 								<li><a href="#">按演出时间<img src="../images/down.png" alt=""></a></li>
+								<li><a href="#">最优惠<img src="../images/down.png" alt=""></a></li>
 							</ul>
 						</div>
 						<div class="txt">
 							<dl class="clearfix">
 								<dt><img src="../images/cardlist1.jpg" alt="党的女儿" /></dt>
 								<dd>
-									<h5>现代京剧《党的女儿》</h5>
+									<h5><a href="cardshow.html">现代京剧《党的女儿》</a></h5>
 									<p>讴歌了年轻的基层女共产党员为了完成革命任务坚守革命信仰而献身的精神</p>
 									<p>时间：2016-08-17  场馆：山西剧院</p>
 									<p>票价：350元</p>
@@ -332,7 +339,7 @@
 						</div>						
 					</div>
 					<div class="listrg">
-						<h5>热门攻略</h5>
+						<h5>其他信息</h5>
 						<a href="#">
 							<img src="../images/cardlist5.jpg" alt="非请莫入" />
 						</a>

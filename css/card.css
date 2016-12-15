@@ -6,8 +6,8 @@
 .cardshowcon .maintit{ background: #e3ebf2;}
 .cardshowcon .maintit strong{ font-size: 18px; font-weight: normal; color: #275aba;line-height: 54px; position: relative;  padding-left: 26px; display: block; }
 .cardshowcon .maintit strong:before{ content: ""; top: 16px; width: 3px; height: 24px; background: #275aba; left: 12px; position: absolute;}
-.cardparas{ padding: 40px;}
-.cardparas .prodimg{ float: left; width:378px; height: 328px; }
+.cardparas{ padding: 0px;}
+.cardparas .prodimg{ float: left; width:862px; height: 328px; }
 .cardparas .dlprod{ margin-left: 424px; line-height: 60px;font-size: 16px;color: #5d5d5d; }
 .cardparas .dlprod dt,.cardparas .dlprod dd{ min-height: 60px;}
 .cardparas .dlprod dt{ float: left; width: 80px; position: relative; }
@@ -78,9 +78,6 @@
 .cardlt{ width: 368px; float: left;}
 .cardrt{ width: 814px; float: right;}
 .cardmem{border: 1px solid  #e4e4e4; padding: 15px 0 20px; margin-bottom: 18px;}
-.cardmem h5{font-size: 20px;color: #4d4d4d;border-bottom: 1px solid  #e4e4e4;font-weight: normal;padding: 0 0 12px 16px;}
-.cardmem form{padding: 24px 30px 0;}
-.cardmem form input{margin-left: 52px;width: 72px;height: 32px;text-align: center;line-height: 32px;background: linear-gradient(#36bfe9,#1a77cf);border-radius: 3px;font-size: 18px;color: #fff;cursor: pointer;}
 .cardcell{ border: 1px solid  #e4e4e4; padding: 6px 16px 20px; margin-bottom: 18px;}
 .cardcell .tit{ font-size: 20px; text-indent: 12px; border-bottom:2px solid #2058c2; line-height: 50px; color: #4d4d4d; margin-bottom: 16px;}
 .cardcell .tit a{font-size: 16px;color: #333;float: right;padding-right: 12px;position: relative;top: 5px;}
@@ -138,3 +135,24 @@
 .page li {display: inline-block;font-size: 12px;color: #333;margin: 0 4px;}			
 .page li a {display: block;font-size: 12px;color: #333;padding: 8px 10px;border: 1px solid #ccc;}			
 .page li.on a {background: #3398db;color: #fff;}
+
+.index_SearchBtn {
+	width: 30px;
+	height: 48px;
+	background: url(../img/icon_Search.png) no-repeat center;
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	cursor: pointer;
+	background-size: 80%;
+}
+
+
+#content .cardcon .cardlt .cardmem .login{width: 368px;height: 279px;padding: 20px;box-sizing: border-box;}
+#content .cardcon .cardlt .cardmem .login .title{border-bottom: 1px solid #2058c2;padding-bottom: 12px;margin-bottom: 10px;}
+/*#content .cardcon .cardlt .cardmem .login form{text-align: center;}*/
+#content .cardcon .cardlt .cardmem .login input[type="text"],#content .cardcon .cardlt .login input[type="password"]{width: 328px;height: 37px;line-height: 37px;border: 1px solid #eee;margin-top: 16px;text-indent: 45px;}
+#content .cardcon .cardlt .cardmem .login input[type="text"]{background: url(../images/username.png) no-repeat left center;}
+#content .cardcon .cardlt .cardmem .login input[type="password"]{background: url(../images/password.png) no-repeat left center;}
+#content .cardcon .cardlt .cardmem .login input[type="button"]{margin-left: 65px;width: 56px;height: 26px;line-height: 26px;color: #fff;text-align: center;font-size: 14px;background: url(../images/im-btn.png) no-repeat center;margin-top: 26px;cursor: pointer;}
