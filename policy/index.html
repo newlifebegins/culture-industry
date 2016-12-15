@@ -12,14 +12,14 @@
         #nav form input[type="text"]{width: 448px;height: 30px;border: 1px solid #ccc;border-radius: 5px;text-indent: 10px;margin: 0 0 0 14px;}
         #nav form select,#nav form button{width: 51px;height: 26px;border-radius: 5px;border: 1px solid #ccc;text-align: center;line-height: 26px;background: transparent;margin: 0 5px;}
         #nav form a{padding: 0 7px;}
-        #content .industry .industry-left li{border-bottom: 1px dashed #e6e6e6;}
+        #content .industry .industry-left li{border-bottom: 1px dashed #e6e6e6;text-align: left;padding-left: 65px;}
         #content .industry .industry-left li:last-child{border-bottom: none;}
         #content .industry .industry-left li a{color: #121212;}
         #content .industry .industry-left li:first-child a{color: #bd1514;}
-        .industry-right .list{padding: 0 33px;}
-        .industry-right .list li{line-height: 48px;font-size: 14px;color: #393939;border-bottom: 1px solid #e6e6e6;}
+        .industry-right .list{padding: 20px;}
+        .industry-right .list li{line-height: 28px;font-size: 14px;color: #696b76;/*border-bottom: 1px solid #e6e6e6;*/}
         .industry-right .list li a{margin-left: 10px;}
-        .industry-right .list li span{float: right;background: url(../images/time.png) no-repeat left center;padding-left: 30px;}
+        .industry-right .list li span{float: right;/*background: url(../images/time.png) no-repeat left center;padding-left: 30px;*/}
         .page{padding: 50px;text-align: center;}
         .page li{display: inline-block;font-size: 12px;color: #333;margin: 0 4px;}
         .page li a{display: block;font-size: 12px;color: #333;padding: 8px 10px;border: 1px solid #ccc;}
@@ -266,11 +266,11 @@
         <ul>
             <li><a href="../index.html">首页</a></li>
             <li><span>></span></li>
-            <li><a href="#">政策法规</a></li>
+            <li><a href="#" style="color: #000;">政策法规</a></li>
             <!-- <li><span>></span></li> -->
             <!-- <li><a href="#">发布系统</a></li> -->
         </ul>
-        <form action="">
+        <form action="" style="text-align: right;">
             <span>信息搜索</span>
             <input type="text" placeholder="输入你要搜索的关键字" />
             <select name="" id="">
@@ -279,7 +279,7 @@
             </select>
             <button>搜索</button>
             <a href="#">高级搜索</a>
-            <!-- <a href="index.html">返回首页</a> -->
+            <a href="index.html">返回首页</a>
         </form>
     </div>
 </div>
@@ -287,21 +287,21 @@
     <div class="container industry clearfix">
         <div class="industry-left">
             <h2><img src="../images/policy.png" alt="个人中心" style="top: 0;left: 0;" /></h2>
-            <ul>
-                <li><a href="#"><span>●</span>综合文化政策</a></li>
-                <!-- <li style="background: #f1f1f1;"><a href="#"><span>&nbsp;&nbsp;&nbsp;&nbsp;●</span>政策法规</a></li> -->
-                <li><a href="#"><span>&nbsp;&nbsp;&nbsp;&nbsp;●</span>国际政策法规</a></li>
-                <li><a href="#"><span>&nbsp;&nbsp;&nbsp;&nbsp;●</span>国外政策法规</a></li>
-                <li style="background: #f1f1f1;"><a href="#"><span>&nbsp;&nbsp;&nbsp;&nbsp;●</span>国家政策法规</a></li>
-                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国家法律</a></li>
-                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;行政法规</a></li>
-                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;规章</a></li>
-                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;规范性文件</a></li>
-                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发展规划</a></li>
-                <li><a href="#" style="color: #bd1514;"><span>●</span>文化产业政策</a></li>
-                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本省政策法规</a></li>
-                <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;外省政策法规</a></li>
-                <li><a href="#" style="color: #bd1514;"><span>●</span>政策解读</a></li>
+            <ul style="padding: 0 18px;">
+                <li style="text-align: left;padding-left: 10px"><a href="#"><span>●</span>综合文化政策</a></li>
+                <li style="background: #f1f1f1;width: 260px;margin-left: -18px;box-sizing: border-box;text-align: left;padding-left: 28px;"><a href="#"><span>&nbsp;&nbsp;&nbsp;&nbsp;●</span>政策法规</a></li>
+                <li><a href="#">国际政策法规</a></li>
+                <li><a href="#">国外政策法规</a></li>
+                <li style="background: #f1f1f1;width: 260px;margin-left: -18px;box-sizing: border-box;text-align: left;padding-left: 28px;"><a href="#"><span>&nbsp;&nbsp;&nbsp;&nbsp;●</span>国家政策法规</a></li>
+                <li><a href="#">国家法律</a></li>
+                <li><a href="#">行政法规</a></li>
+                <li><a href="#">规章</a></li>
+                <li><a href="#">规范性文件</a></li>
+                <li><a href="#">发展规划</a></li>
+                <li style="padding-left: 10px"><a href="#" style="color: #bd1514;"><span>●</span>文化产业政策</a></li>
+                <li style="padding-left: 48px;"><a href="#">本省政策法规</a></li>
+                <li style="padding-left: 48px;"><a href="#">外省政策法规</a></li>
+                <li style="padding-left: 10px"><a href="#" style="color: #bd1514;"><span>●</span>政策解读</a></li>
                 <!-- <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;政策解读</a></li> -->
             </ul>
         </div>
@@ -324,8 +324,18 @@
                 <li>14<a href="#">广东省促进大数据发展行动计划 （2016-2020年）【粤府办〔2016〕29号】</a><span>2016-07-27</span></li>
                 <li>15<a href="#">广东省文化厅省级文化产业示范园区管理办法</a><span>2016-07-27</span></li>
                 <li>16<a href="#">中华人民共和国著作权法实施条例   2013年01月30日 中华人民共和国国务院令…【中华人民共和国国务院令】</a><span>2016-07-27</span></li>
+                <li>17<a href="#">山西省人民政府关于印发山西省“十三五”服务业发展规划的通知【 晋政发〔2016〕37号】 </a><span>2016-07-27</span></li>
+                <li>18<a href="#">山西省人民政府关于山西融合环渤海地区发展的实施意见【晋政发〔2016〕15号】</a><span>2016-07-27</span></li>
+                <li>19<a href="#">山西省人民政府关于积极发挥新消费引领作用加快培育形成新供给新动…【晋政发〔2016〕30号】</a><span>2016-07-27</span></li>
+                <li>20<a href="#">山西省人民政府关于印发山西省进一步支持服务业发展若干措施的通知【晋政发〔2016〕32号】</a><span>2016-07-27</span></li>
+                <li>21<a href="#">山西省人民政府办公厅关于实施山西省戏曲传承发展振兴工程的意见【晋政办发〔2016〕75号】</a><span>2016-07-27</span></li>
+                <li>22<a href="#">浙江省人民政府办公厅关于推进基层综合性文化服务中心建设的实施意见【浙政办发[2016]55号】</a><span>2016-07-27</span></li>
+                <li>23<a href="#">吉林省人民政府关于积极推进吉林省“互联网+”行动的实施意见【吉政发[2016]15号】</a><span>2016-07-27</span></li>
+                <li>24<a href="#">天津市关于做好政府向社会力量购买公共文化服务工作的实施意见【津文广财[2016]7号】</a><span>2016-07-27</span></li>
+                <li>25<a href="#">北京市“十三五”时期加强全国文化中心建设规划【京政发〔2016〕20号】</a><span>2016-07-27</span></li>
+                <li>26<a href="#">关于加快推进丝绸之路经济带核心区文化科教中心（文化体育部分）建…【新政办发〔2016〕44号】</a><span>2016-07-27</span></li>
             </ul>
-            <ul class="page">
+            <!-- <ul class="page">
                 <li>每页10条 共32页</li>
                 <li><a href="#">上一页</a></li>
                 <li><a href="#">1</a></li>
@@ -333,7 +343,7 @@
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
                 <li><a href="#">下一页</a></li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </div>

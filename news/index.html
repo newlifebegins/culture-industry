@@ -23,9 +23,9 @@
 		<ul class="right">
 			<li><a href="../reg_login/login-personal.html">登录</a></li>
 			<li><span> | </span></li>
-			<li><a href="../reg_login/register-personal.html">个人注册</a></li>
-			<li><span> | </span></li>
-			<li><a href="../reg_login/register-company.html">企业注册</a></li>
+			<li><a href="../reg_login/register-personal.html">注册</a></li>
+			<!-- <li><span> | </span></li> -->
+			<!-- <li><a href="../reg_login/register-company.html">企业注册</a></li> -->
 		</ul>
 	</div>
 </div>
@@ -249,8 +249,49 @@
 		</div>
 <div id="news-content">
 	<div class="container">
+		<form action="" class="search">
+			<select name="" id="">
+				<option value="">全部</option>
+				<option value="">新闻</option>
+				<option value="">视频</option>
+				<option value="">图片</option>
+				<option value="">论坛</option>
+				<option value="">服务</option>
+			</select>
+			<input type="text" placeholder="输入您要搜索的关键词" />
+			<a href="">搜索 | </a>
+			<a href="">高级搜索</a>
+			<input type="search" />
+		</form>
+		<div class="notice clearfix">
+			<div class="left">
+				<dl class="news">
+					<dt><img src="../images/news/news-banner.jpg" alt=""></dt>
+					<dd>
+						<div class="title"><img src="../images/news/notice.png" alt=""><a href="news/list.html">更多>></a></div>
+						<p><i>■</i>北京市1000万元消费券来喽！<span>10-21</span></p>
+						<p><i>■</i>8月13日《Cavalia·舞马》等你来抢。<span>10-21</span></p>
+						<p><i>■</i>“惠”抢票！嗨翻北京电影节！ <span>10-21</span></p>
+						<p><i>■</i>3月注册文惠卡抽奖揭晓啦！<span>10-21</span></p>
+						<p><i>■</i>3月注册文惠卡抽奖揭晓啦！<span>10-21</span></p>
+						<p><i>■</i>8月13日《Cavalia·舞马》等你来抢。<span>10-21</span></p>
+					</dd>
+				</dl>
+			</div>
+			<div class="right">
+				<div class="login">
+					<div class="title"><img src="../images/im-login.png" alt=""></div>
+					<form action="">
+						<input type="text" />
+						<input type="password" />
+						<input type="button" value="登录" class="first" />
+						<input type="button" value="注册" />
+					</form>
+				</div>
+			</div>
+		</div>
 		<table>
-			<tr>
+			<!-- <tr>
 				<td class="col-left">
 					<div class="banner-box">
 						<img src="../images/news/news-banner.jpg" alt="">
@@ -270,11 +311,11 @@
 						<dd><a href="#"><i>■</i>北京市1000万元消费券来喽！</a><span>10-21</span></dd>
 					</dl>
 				</td>
-			</tr>
+			</tr> -->
 			<tr>
 				<td class="col-left">
 					<div class="article">
-						<h5><span>产业要闻</span><a href="list.html">更多>></a></h5>
+						<h5><img src="../images/im-news.png" alt=""><a href="list.html" class="down">更多>></a></h5>
 						<dl class="clearfix">
 							<dt><img src="../images/news/news1.jpg" alt=""></dt>
 							<dd><i>●</i><a href="#">北京市1000万元消费券来喽！</a></dd>
@@ -287,7 +328,7 @@
 				</td>
 				<td class="col-right">
 					<dl class="img-center">
-						<dt>视频中心 <a href="level31.html">更多>></a></dt>
+						<dt><img src="../images/news/video.png" alt=""> <a href="level31.html" class="down">更多>></a></dt>
 						<dd><img src="../images/news/news2.jpg" alt=""></dd>
 					</dl>
 				</td>
@@ -295,7 +336,7 @@
 			<tr>
 				<td class="col-left">
 					<div class="article">
-						<h5><span>图片新闻</span><a href="pic.html">更多>></a></h5>
+						<h5><img src="../images/news/photo.png" alt=""><a href="pic.html" class="down">更多>></a></h5>
 						<div class="banner-img" id="focus_Box">
 							<span class="prev">&nbsp;</span>
 							<span class="next">&nbsp;</span>
@@ -320,8 +361,8 @@
 					</div>
 				</td>
 				<td class="col-right">
-					<dl class="hot">
-						<dt>热点专题<a href="level32.html">更多>></a></dt>
+					<dl class="hot" style="padding-bottom: 33px;">
+						<dt><img src="../images/news/hot.png" alt=""><a href="level32.html" class="down">更多>></a></dt>
 						<dd><img src="../images/news/news4.1.jpg" alt=""></dd>
 						<dd><img src="../images/news/news5.1.jpg" alt=""></dd>
 						<dd><img src="../images/news/news6.1.jpg" alt=""></dd>
@@ -329,7 +370,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td class="col-left">
+				<!-- <td class="col-left">
 					<div class="article clearfix">
 						<div class="float-left">
 							<h5><span>产业研究</span><a href="research.html">更多>></a></h5>
@@ -337,6 +378,7 @@
 								<dd><i>●</i><a href="#">北京市1000万元消费券来喽！</a></dd>
 								<dd><i>●</i><a href="#">8月13日《Cavalia·舞马》等你来抢。</a></dd>
 								<dd><i>●</i><a href="#">浅谈黄河企业如何推行效绩评价！</a></dd>
+								<dd><i>●</i><a href="#">8月13日《Cavalia·舞马》等你来抢。</a></dd>
 							</dl>
 						</div>
 						<div class="float-left">
@@ -345,6 +387,7 @@
 								<dd><i>●</i><a href="#">北京市1000万元消费券来喽！</a></dd>
 								<dd><i>●</i><a href="#">8月13日《Cavalia·舞马》等你来抢。</a></dd>
 								<dd><i>●</i><a href="#">浅谈黄河企业如何推行效绩评价！</a></dd>
+								<dd><i>●</i><a href="#">北京市1000万元消费券来喽！</a></dd>
 							</dl>
 						</div>
 						<div class="no-left">
@@ -359,7 +402,7 @@
 				</td>
 				<td class="col-right">
 					<dl class="hot">
-						<dt>专题报道</dt>
+						<dt>专题报道<a href="">更多>></a></dt>
 						<dd><img src="../images/news/news7.jpg" alt=""></dd>
 						<dd><img src="../images/news/news8.jpg" alt=""></dd>
 						<dd><img src="../images/news/news9.jpg" alt=""></dd>
@@ -367,25 +410,26 @@
 						<dd><img src="../images/news/news11.jpg" alt=""></dd>
 						<dd><img src="../images/news/news12.jpg" alt=""></dd>
 					</dl>
-				</td>
+				</td> -->
+				<td colspan="2"><img src="../images/news/zonghe.jpg" alt="" usemap="#Map3"></td>
 			</tr>
 			<tr>
 				<td colspan="2" class="link-a">
-					<img src="../images/news/news18.jpg" alt="">
-					<div>
+					<img src="../images/news/news18.jpg" alt="" usemap="#Map4">
+					<!-- <div>
 						<a href="resource2.html"></a>
 						<a href="resource3.html"></a>
 						<a href="resource5.html"></a>
 						<a href="resource4.html"></a>
 						<a href="resource1.html"></a>
 						<a href="resource6.html"></a>
-					</div>					
+					</div>	 -->				
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
 					<div class="article">
-						<h5><span>企业推荐</span><a href="recommend.html">更多>></a></h5>
+						<h5><img src="../images/news/tuijian.png" alt=""><a href="recommend.html" class="down">更多>></a></h5>
 						<div class="recomment-comp">
 							<img src="../images/news/news13.jpg" alt="">
 							<img src="../images/news/news14.jpg" alt="">
@@ -422,6 +466,22 @@
   <area shape="rect" coords="4,185,401,313" href="#">
   <area shape="rect" coords="405,184,797,314" href="#">
   <area shape="rect" coords="806,185,1198,312" href="#">
+</map>
+
+<map name="Map3">
+  <area shape="rect" coords="330,31,388,54" href="research.html">
+  <area shape="rect" coords="734,30,800,55" href="case.html">
+  <area shape="rect" coords="1131,29,1182,53" href="#">
+  <area shape="rect" coords="734,202,796,229" href="show.html">
+</map>
+
+<map name="Map4">
+  <area shape="rect" coords="28,100,401,240" href="resource1.html">
+  <area shape="rect" coords="416,101,784,238" href="resource2.html">
+  <area shape="rect" coords="803,101,1177,239" href="resource6.html">
+  <area shape="rect" coords="27,251,401,387" href="resource3.html">
+  <area shape="rect" coords="416,253,787,386" href="resource5.html">
+  <area shape="rect" coords="803,252,1176,385" href="resource4.html">
 </map>
 </body>
 	

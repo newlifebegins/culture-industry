@@ -14,10 +14,10 @@
 .fenxiang span{font-size: 22px;color: #222;}
 .fenxiang a{margin: 0 5px;}
 .fenxiang a img{vertical-align: middle;}
-.anaul .anaimg {width: 265px;height: 235px;box-sizing: border-box;padding: 0;}	
+.anaul .anaimg {width: 282px;height: 249px;box-sizing: border-box;padding: 0;}	
 .anaimg h5 {font-size: 14px;color: #242424;font-weight: normal;text-align: center;line-height: 30px;margin-top: 18px;}			
 .anaul {padding-left: 0;margin-top: 20px;}			
-.anaul li {margin: 20px 0 0 41px;float: left;}			
+.anaul li {margin: 20px 0 0 24px;float: left;}			
 .anaul li:nth-of-type(4n+1) {margin-left: 0;}			
 .anaul h5 {line-height: 26px;font-size: 20px;font-weight: 500;margin-top: 10px;}	
 .anaul p {font-size: 14px;color: #242424;text-align: left;line-height: 24px;margin: 10px 0;width: 269px;box-sizing: border-box;}
@@ -33,13 +33,15 @@
 .audio-container iframe{width: 100%;height: 444px;}
 .audio-newsl{width: 835px;}
 .audio-newsr{width: 310px;}
-.audio-newsr h5{line-height: 30px;padding: 10px 0 10px 0;font-size: 20px;color: #4d4d4d;background: url(../img/audio.png) no-repeat 65px center;text-align: center;font-weight: normal;}
+.audio-newsr h5{line-height: 30px;padding: 10px 0 10px 0;font-size: 20px;color: #4d4d4d;background: #f5f5f5 url(../img/audio.png) no-repeat 65px center;text-align: center;font-weight: normal;}
 .audio-newsr ul{margin-top: 23px;}
 .audio-newsr ul li{margin-top: 11px;}
 .audio-newsr ul li:first-child{margin-top: 0;}
 
-.recommend{border: 1px solid #ccc;padding: 40px;margin-top: 40px;}
-.recommend h5{font-size: 24px;color: #4d4d4d;font-weight: normal;border-bottom: 1px solid #457cda;padding-bottom: 16px;}
+.recommend{border: 1px solid #ccc;padding: 0;margin-top: 40px;text-align: center;}
+/*.recommend h5{font-size: 24px;color: #4d4d4d;font-weight: normal;border-bottom: 1px solid #457cda;padding-bottom: 16px;}*/
+.recommend h5{font-size: 18px;color: #2058c2;font-weight: normal;padding-left: 20px;background: #e2ebf2;height: 52px;line-height: 52px;text-align: left;margin-bottom: 20px;}
+.recommend h5 span{border-left: 3px solid #2058c2;padding-left: 7px;}
 .recommend li{float: left;width: 166px;height: 109px;border: 1px solid #ccc;text-align: center;margin: 48px 27px 0;}
 .recommend li a{display: block;width: 100%;height: 72px;line-height: 72px;}
 .recommend li a img{vertical-align: middle;}
