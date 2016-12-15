@@ -1,16 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>山西文化产业网 - 旅游馆-佛教古建筑</title >
-    <link rel="stylesheet" href="../css/base.css" />
-    <link rel="stylesheet" href="../css/finance.css">
-    <link rel="stylesheet" href="../css/swiper.css" />
+    <meta charset="UTF-8">
+    <title>山西文化产业网 - 产业项目</title >
+    <link rel="stylesheet" href="../css/base.css" />     
+    <link rel="stylesheet" href="../css/industrial.css" />     
     <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/layer/layer.js"></script>
 	<script type="text/javascript" src="../js/topMenu.js"></script>
-    <style>
-        hr{margin-bottom: 15px;}
-    </style>
   </head>
 <body>
 <div id="top">
@@ -250,82 +247,51 @@
 <div id="nav">
     <div class="container">
         <ul>
-            <li><a href="../index.html">首页</a></li>
+            <li>
+                <a href="../index.html">首页</a>
+            </li>
             <li><span>></span></li>
-            <li><a href="index.html">产品展示</a></li>
+            <li>
+                <a href="index.html">产业项目</a>
+            </li>
             <li><span>></span></li>
-            <li><a href="#">一周一品</a></li>
+            <li>
+                <a href="#">项目展示</a>
+            </li>
         </ul>
         <form action="">
             <input type="text" placeholder="输入你要搜索的关键字" />
+            <a href="">搜索 | </a><a href="">高级搜索</a>
             <input type="submit" value="搜索" />
         </form>
     </div>
 </div>
 <div id="content">
-    <div class="container clearfix">
-        <!-- <hr color="#4480df" /> -->
-        <div>
-            <img src="../images/product-show/show-.jpg" alt="">
+    <div class="container clearfix industrial-content">
+        
+        
+        
+        <div><img src="../images/industrial/show.jpg" alt="" width="1200px;"></div>
+        <!-- <div class="left"><img src="../images/b1.jpg" /></div>
+        <div class="right">
+            <div style="margin-top: 15px;"><a href=""><img src="../images/b2.jpg" /></a></div>
+            <div style="margin-top: 15px;"><a href="" class="publish"><img src="../images/b3.jpg" /></a></div>
+            <div style="margin-top: 15px;"><a href=""><img src="../images/b4.jpg" /></a></div>
         </div>
-        <div>
-            <div class="swiper-container pic-container" style="text-align: center;margin-top: 100px;">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="../images/product-show/show1.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../images/product-show/show1.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../images/product-show/show1.jpg" alt="">
-                    </div>
-                </div>
-                <!-- 如果需要分页器 -->
-                <!-- <div class="swiper-pagination"></div> -->
-                
-                <!-- 如果需要导航按钮 -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                
-                <!-- 如果需要滚动条 -->
-                <!-- <div class="swiper-scrollbar"></div> -->
-            </div>
-            <!-- <img src="../images/product-show/show1.jpg" alt=""> -->
-        </div>
-        <div>
-            <img src="../images/product-show/show3-.jpg" alt="">
-        </div>
-    </div>    
+        <div><img src="../images/b5.jpg" /></div>
+        <div><img src="../images/b6.1.jpg" usemap="#Map" />
+          <map name="Map">
+            <area shape="rect" coords="22,447,291,733" href="detail1.html">
+          </map>
+        </div> -->
+    </div>
 </div>
-</body>
-<script type="text/javascript" src="../js/swiper.min.js"></script>
-<script>
-$(function(){
-    var mySwiper = new Swiper ('.swiper-container', {
-      direction: 'horizontal',
-      loop: true,
-      
-      // 如果需要分页器
-      pagination: '.swiper-pagination',
-      paginationType: 'fraction',
-      
-      // 如果需要前进后退按钮
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
-      
-      // 如果需要滚动条
-      // scrollbar: '.swiper-scrollbar',
 
-    })
-});      
-          
-</script>
-<script>
-  $(function(){
-      $(".top_menuItem").eq(4).addClass("choose");
-
-      $(".publish").on("click",function(){
+  </body>
+  <script>
+  	$(function(){
+  		$(".top_menuItem").eq(3).addClass("choose");
+        $(".publish").on("click",function(){
             layer.msg('请先登录',{
                 end: function(){
                     window.location.href = '../reg_login/login-personal-pub.html';
@@ -333,6 +299,6 @@ $(function(){
             });
             return false;
         });
-  });
-</script>
+  	});
+  </script>
 </html>
