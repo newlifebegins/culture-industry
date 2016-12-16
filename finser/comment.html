@@ -190,7 +190,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <a href="../finser/comment.html">企业诚信评价</a>
+                                            <a href="../finser/comment_content.html">企业诚信评价</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -267,7 +267,7 @@
 
         </div>
         <div class="finserbox finser-right">
-            <h1>山西文化产业公共服务平台企业信用评价系统</h1>
+            <h1>山西文化产业公共服务平台企业申请信用评价系统</h1>
             <dl class="clearfix">
                 <dt>企业名称：</dt><dd><input type="text" value="山西文化产业网" placeholder=""><span>*（必填）</span></dd>
                 <dt>法人代表：</dt><dd><input type="text" value="山西文化产业网" placeholder=""><span>*</span></dd>
@@ -284,7 +284,7 @@
                 <dt>企业上年度资产总额：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
                 <dt>企业上年度可抵押资产总额：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
                 <dt>企业上年度资产负债率：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
-                <dd class="btn"><a href="comment_content.html" >提交</a><a href="index.html">取消</a></dd>
+                <dd class="btn"><a href="#" class="shenqin">提交</a><a href="index.html">取消</a></dd>
             </dl>
 
         </div>
@@ -295,18 +295,19 @@
     <li><a href="#"><img src="../images/service.png" alt="客服热线"></a></li>
     <li><a href="#"><img src="../images/return.png" alt="返回顶部"></a></li>
 </ul>
-<!--
+
 <div id="successLayer" style="display: none;">  
 			<img src="../images/ok.png">
 			<h2>恭喜你成为二星级用户！</h2>
 			<h3>是否升级为三星用户</h3>
-      <a href="comment_content.html" style="cursor:pointer;text-decoration: none;"> 是的
+      <a href="comment.html" style="cursor:pointer;text-decoration: none;"> 是的
       </a>  
-      <a href="#" onclick="closeDiv()"  style="cursor:pointer;text-decoration: none;">否,谢谢  
+      <a href="comment.html" onclick="closeDiv()"  style="cursor:pointer;text-decoration: none;">否,谢谢  
       </a>  
 </div>  
--->
+
 </body>
+<script type="text/javascript" src="../js/layer/layer.js"></script>
 <script>
   $(function(){
       $(".top_menuItem").eq(5).addClass("choose");
@@ -319,13 +320,27 @@
             });
             return false;
         });
+
+      $(".shenqin").on("click",function(){
+        layer.open({
+          type: 1,
+          title: false,
+          closeBtn: 0,
+          area: '601px 373px',
+          shadeClose: true,
+          skin: 'yourclass',
+          content: $("#successLayer")
+        });
+        return false;
+      })
+      
   });
 
  // function showDiv() {  
  //     document.getElementById('successLayer').style.display = 'block';        
  // }  
- // function closeDiv() {  
- //     document.getElementById('successLayer').style.display = 'none';  
- // }  
+ function closeDiv() {  
+     document.getElementById('successLayer').style.display = 'none';  
+ }  
 </script>
 </html>

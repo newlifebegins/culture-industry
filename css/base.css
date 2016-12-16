@@ -206,8 +206,12 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .comment h5{font-size: 20px;line-height: 35px;padding-left: 12px;border-bottom: 1px solid #2058c2;font-weight: 500;margin-bottom: 14px;padding-bottom: 4px;}
 #content .comment dl{padding: 0 14px 18px;border: 1px solid #e7e7e7;float: left;background: #fff;margin: 0 0 24px 21px;}
 #content .comment dl:nth-of-type(2n+1){margin-left: 2px;}
-#content .comment dl dt{width: 412px;font-size: 16px;background: url(../images/star.png) no-repeat 12px center;padding:18px 0 18px 122px;border-bottom: 1px solid #e7e7e7;margin-bottom: 15px;}
+#content .comment dl dt{width: 412px;font-size: 16px;padding:18px 0 18px 122px;border-bottom: 1px solid #e7e7e7;margin-bottom: 15px;}
 #content .comment dl dd{width: 524px;font-size: 14px;line-height: 45px;color: #808080;padding-left: 12px;}
+#content .comment dl:nth-of-type(1) dt{background: url(../images/star5.png) no-repeat 12px center;}
+#content .comment dl:nth-of-type(2) dt{background: url(../images/star4.png) no-repeat 12px center;}
+#content .comment dl:nth-of-type(3) dt{background: url(../images/star3.png) no-repeat 12px center;}
+#content .comment dl:nth-of-type(4) dt{background: url(../images/star2.png) no-repeat 12px center;}
 
 .side-right{position: fixed;right: 0;top: 50%;margin-top: -75px;}
 
@@ -291,3 +295,13 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 .cul-right{float: right;}
 .cul-right div{margin-top: 20px;}
 .cul-right div:last-child{margin-top: 8px;}
+
+
+
+
+#successLayer{width: 601px;height: 373px;border-radius: 3px;padding: 60px 122px;box-sizing: border-box;text-align: center;}
+#successLayer h2{font-size: 24px;color: #596e8c;font-weight: 500;margin-top: 10px;}
+#successLayer h3{font-size: 20px;color: #a7b5c4;font-weight: normal;}
+#successLayer a{width: 166px;height: 48px;border: 1px solid #1979b8;border-radius: 3px;display: inline-block;line-height: 48px;text-align: center;font-size: 19px;margin-top: 45px;}
+#successLayer a:nth-of-type(1){color: #fff;background: linear-gradient(#36a9e8,#2574d2);float: left;}
+#successLayer a:nth-of-type(2){color: #5b7695;float: right;}

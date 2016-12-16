@@ -15,7 +15,7 @@
 .content-box .side-lefts dd a{line-height: 28px;font-size: 14px;color: #242424;}
 .content-box .content{width: 670px;height: auto;padding: 0 20px;box-sizing: border-box;}
 .content-box .content form{height: 45px;border: 1px solid #ccc;line-height: 45px;border-radius: 3px;background: #f8f8f8;}
-.content-box .content form input[type="text"]{width: 78%;height: 100%;text-indent: 5px;vertical-align: top;background: #f8f8f8;}
+.content-box .content form input[type="text"]{width: 76%;height: 100%;text-indent: 5px;vertical-align: top;background: #f8f8f8;}
 .content-box .content form a{font-size: 16px;color: #1d1d1d;}
 .content-box .content form input[type="submit"]{width: 30px;height: 30px;text-indent: -9999px;background: url(../images/search.png) no-repeat center;margin-left: 10px;cursor: pointer;}
 .content-box .content .banner{margin: 8px 0;}
