@@ -58,8 +58,8 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #search form input[type="submit"]{background: url(../images/search.png) no-repeat center;float: right;color: transparent;cursor: pointer;}
 
 /*公用banner*/
-#banner{ position: relative; height: 430px; border-top:1px solid #bbbec4; overflow: hidden;width: 1200px;margin: 0 auto;}
-#banner img{ display: block;width: 1200px;height: 430px;}
+#banner{ position: relative;/* height: 430px;*/ border-top:1px solid #bbbec4; overflow: hidden;width: 1200px;margin: 0 auto;}
+#banner img{ display: block;width: 1200px;}
 /*#banner img{ display: block; position: absolute; left: 50%; top: 0%; margin-left: -960px;}*/
 
 /*公用底部*/
