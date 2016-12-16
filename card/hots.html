@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>山西文化产业网 - 产业项目</title>
+		<title>山西文化产业网 - 热门信息</title>
 		<link rel="stylesheet" href="../css/base.css" />
 		<link rel="stylesheet" href="../css/news.css" />
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
@@ -19,9 +19,9 @@
 				<ul class="right">
 					<li><a href="../reg_login/login-personal.html">登录</a></li>
 					<li><span> | </span></li>
-					<li><a href="../reg_login/register-personal.html">个人注册</a></li>
-					<li><span> | </span></li>
-					<li><a href="../reg_login/register-company.html">企业注册</a></li>
+					<li><a href="../reg_login/register-personal.html">注册</a></li>
+					<!-- <li><span> | </span></li>
+					<li><a href="../reg_login/register-company.html">企业注册</a></li> -->
 				</ul>
 			</div>
 		</div>
@@ -243,7 +243,7 @@
 
 			</div>
 		</div>	
-		<div id="nav">
+		<div id="nav" class="index_Search">
 			<div class="container">
 				<ul>
 					<li>
@@ -258,17 +258,19 @@
 						<a href="#">热门信息</a>
 					</li>
 				</ul>
-				<form action="">
-					<input type="text" placeholder="输入你要搜索的关键字" />
-					<input type="submit" value="搜索" />
-				</form>
+				<form action="" style="text-align: right;">
+		            <input type="text" placeholder="输入您要搜索的关键词" />
+		            <a href="">搜索 | </a>
+		            <a href="">高级搜索</a>
+		            <input type="search" style="background: url(../img/icon_Search.png) no-repeat center;"/>
+		        </form>
 			</div>
 		</div>
 		<div id="content">
 			<div class="container">
 				<div class="notis localdynamic clearfix">
 					<div class="left notis-left">
-						<h5>热门信息<!-- <a href="">更多>></a> --></h5>
+						<h5>热门信息<a href="#">更多>></a></h5>
 						<ul class="local">
 							<li><a href="#"><em>●</em>山西文化民惠券来啦！</a><span>2016-07-27</span></li>
 							<li><a href="#"><em>●</em>8月13日晚 门票等你来抢！</a><span>2016-09-13</span></li>
@@ -314,6 +316,7 @@
 						</ul>
 					</div>
 					<div class="right notis-right">
+						<!-- <h5>特别关注<a href="special_attention.html">更多>></a></h5> -->
 						<h5>特别关注</h5>
 						<ul>
 							<li class="on"><span>1</span><a href="">山西文化民惠券来啦！</a></li>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>山西文化产业网 - 产业项目</title >
+    <title>山西文化产业网 - 消费服务</title >
     
     <link rel="stylesheet" href="../css/base.css" />
     <link rel="stylesheet" href="../css/card.css" />
@@ -18,9 +18,9 @@
         <ul class="right">
             <li><a href="../reg_login/login-personal.html">登录</a></li>
             <li><span> | </span></li>
-            <li><a href="../reg_login/register-personal.html">个人注册</a></li>
-            <li><span> | </span></li>
-            <li><a href="../reg_login/register-company.html">企业注册</a></li>
+            <li><a href="../reg_login/register-personal.html">注册</a></li>
+            <!-- <li><span> | </span></li>
+            <li><a href="../reg_login/register-company.html">企业注册</a></li> -->
         </ul>
     </div>
 </div>
@@ -245,16 +245,18 @@
 <div class="cardban">
     <img src="../images/cardban.jpg">
 </div>
-<div id="search">
+<div id="search" class="index_Search">
     <div class="container clearfix">
         <p class="tips">欢迎关注山西文化产业微信公众号：2356982455</p>
-        <form action="">
-            <input type="text" placeholder="输入你要搜索的关键字" />
-            <input type="submit" value="搜索" />
+        <form action="" style="text-align: right;">
+            <input type="text" placeholder="输入您要搜索的关键词" />
+            <a href="">搜索 | </a>
+            <a href="">高级搜索</a>
+            <input type="search" style="background: url(../img/icon_Search.png) no-repeat center;"/>
         </form>
     </div>
 </div>
-<div id="nav">
+<!-- <div id="nav">
     <div class="container">
         <ul>
             <li><a href="../index.html">首页</a></li>
@@ -264,7 +266,7 @@
             <li><a href="#">文惠卡</a></li>
         </ul>
     </div>
-</div>
+</div> -->
 
 
 <div id="content">
@@ -272,11 +274,15 @@
     <div class="container cardcon clearfix">
         <aside class="cardlt">
             <div class="cardmem">
-                <h5>会员登录</h5>
-                <form action="">
-                    <input type="button" value="登录" />
-                    <input type="button" value="注册" />
-                </form>
+                <div class="login">
+                    <div class="title"><img src="../images/im-login.png" alt=""></div>
+                    <form action="">
+                        <input type="text" />
+                        <input type="password" />
+                        <input type="button" value="登录" class="first" />
+                        <input type="button" value="注册" />
+                    </form>
+                </div>
             </div>
             <div class="cardcell">
                 <div class="tit">山西文惠卡介绍与使用说明</div>
@@ -289,14 +295,12 @@
                     </p>
                 </div>
             </div>
-
         </aside>
         <article class="cardrt">
             <div class="cardcell clearfix">
-                <div class="tit">热门信息<a href="hots.html">更多>></a></div>
+                <div class="tit"><img src="../images/consume-service/index_consumer_info.jpg" style="display:inline;"/><a href="hots.html">更多>></a></div>
                 <div class="cardsublt">
-                    <div class="cardsubtit">山西文化惠民券来啦！</div>
-                    <img src="../images/tmpcard1.jpg">
+                    <img src="../images/consume-service/index_consumer_info_example.jpg">
                 </div>
                 <div class="cardsubrt">
                     <div class="cardsubtit">特别关注</div>
@@ -317,9 +321,9 @@
                 </div>
             </div>
             <div class="cardcell clearfix">
-                <div class="tit">消费攻略<a href="shoplist.html">更多>></a></div>
+                <div class="tit"><img src="../images/consume-service/index_preferential_info.jpg" style="display:inline;"/><a href="shoplist.html">更多>></a></div>
                 <div class="cardsublt">
-                    <div class="cardsubtit">热门攻略</div>
+                    <div class="cardsubtit">热门信息</div>
                     <div class="cardre clearfix">
                         <img src="../images/cardre.jpg" class="pic">
                         <ul>
@@ -342,7 +346,7 @@
                     </div>
                 </div>
                 <div class="cardsubrt">
-                    <div class="cardsubtit">其他攻略</div>
+                    <div class="cardsubtit">其他信息</div>
                     <ul class="ulelsere">
                         <li>
                             <img src="../images/tmpcardre1.jpg">
@@ -363,7 +367,7 @@
                 </div>
             </div>
             <div class="cardcell">
-                <div class="tit">商家联盟<a href="lianmeng.html">更多>></a></div>
+                <div class="tit"><img src="../images/consume-service/index_merchants_alliance.jpg" style="display:inline;"/><a href="lianmeng.html">更多>></a></div>
                 <ul class="ulcardlogos clearfix">
                     <li>
                         <a href="yuda.html"><img src="../images/cardlogo1.jpg"> </a>
@@ -384,7 +388,7 @@
                 </ul>
             </div>
             <div class="cardcell">
-                <div class="tit">联系我们</div>
+                <div class="tit"><img src="../images/consume-service/index_contact_us.jpg" style="display:inline;"/><a href="contact.html">更多>></a></div>
                 <ul class="ulcardcontact clearfix">
                     <li>
                         <img src="../images/cardtel.png">
