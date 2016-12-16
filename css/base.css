@@ -118,25 +118,45 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .table-side-right table td{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;}
 #content .table-side-right table th{border: 1px solid #e4e4e4;font-size: 16px;padding: 20px;background:#f7f7f7}
 
-#content .box-with-border{width:1098px;border: 1px solid #d8d8d8;margin:0 auto;padding:18px;}
-#content .box-with-border h2{font-size:24px;text-align:center;color:#3d3d3d}
-#content .box-with-border .upload ol{font-size:20px;color:#3d3d3d;line-height:45px;padding:65px}
-#content .box-with-border .upload ul{padding:0 140px 0 65px}
+#content .box-with-border{width:998px;border: 1px solid #d8d8d8;margin:110px auto 0;padding: 43px 18px 18px;}
+#content .box-with-border h2{font-size:18px;text-align:center;color:#3d3d3d;font-weight: 600;}
+#content .box-with-border .upload ol{font-size:18px;color:#3d3d3d;line-height:45px;padding: 40px 65px 65px;}
+#content .box-with-border .upload ul{padding:0 90px 0 90px}
 #content .box-with-border .upload dt{font-size:24px;color:#3d3d3d}
-#content .box-with-border .upload dd button {width:146px;height:33px;font-size:16px;border:1px solid #d8d8d8;background:transparent;margin:16px}
+#content .box-with-border .upload dd button {width:146px;height:33px;font-size:16px;border:1px solid #d8d8d8;background:transparent;margin:16px 16px 16px 0}
 #content .box-with-border img{width:346px;border:1px solid #d6d6d6}
-#content .agree-div {text-align:center;margin:0 auto;padding:50px}
-#content .agree-div label {font-size:14px;margin:20px;text-align:center}
-#content .agree-div button {width:141px;height:34px;font-size:16px;background:#4480df;margin:36px;border-radius:8px;color:#ffffff;cursor: pointer;}
-#content .box-with-border .register dl{padding: 50px 44px 0;text-align: center;color:#3d3d3d}
+#content .agree-div {text-align:left;margin:0 auto;/*padding:0px 50px 50px 50px;padding-left: 315px;*/}
+#content .agree-div label {font-size:14px;margin: 0 20px;text-align:center}
+#content .agree-div button {width:141px;height:34px;font-size:16px;background:#4480df;margin:36px 36px 36px 20px;border-radius:8px;color:#ffffff;cursor: pointer;}
+#content .box-with-border .register dl{padding: 50px 50px 0;text-align: center;color:#3d3d3d}
 #content .box-with-border .register dt{float: left;text-align: right;font-size: 18px;width: 284px;line-height:35px}
-#content .box-with-border .register dd{margin: 0 0 34px 284px;text-align: left;}
-#content .box-with-border .register dd input[type="text"],#content .box-with-border dd select{width: 270px;height: 35px;border: 1px solid #d6d6d6;text-indent: 10px;font-size: 16px;border-radius:8px;}
+#content .box-with-border .register dd{margin: 0 0 24px 284px;text-align: left;}
+#content .box-with-border .register dd input[type="text"],#content .box-with-border dd select{width: 270px;height: 35px;border: 1px solid #d6d6d6;text-indent: 10px;font-size: 16px;border-radius:8px;line-height: 35px;}
 #content .box-with-border .register dd span{padding:15px;color:#a0a0a0;font-size:14px}
 #content .box-with-border .register dt i{margin-right:10px;color:#ff0000;font-size:14px}
 #content .box-with-border .register dd a{display:inline-block;color:#ffffff;font-size:14px;border-radius:8px;width:150px;height:28px;background:#7c7c7c;margin-left:15px;text-align:center;line-height:28px}
-#content .login{width: 1200px;height: 505px;border: 1px solid #ccc;margin: 150px auto;}
-#content .login ul{line-height: 38px;background: #efefef;}
+#content .login{width: 1200px;height: 505px;/*border: 1px solid #ccc;*/margin: 150px auto;background: url(../images/login-bg.png) no-repeat center;background-size: cover;}
+#content .login .login-box{width: 354px;height: 347px;background: #fff url(../images/login-weixin.png) no-repeat right top;float: right;margin: 76px 40px 0 0;padding: 40px 53px;box-sizing: border-box;}
+#content .login .login-box .title li{font-size: 12px;color: #555;line-height: 25px;cursor: pointer;}
+#content .login .login-box .title li label{cursor: pointer;}
+#content .login .login-box .title li a{color: #555;}
+#content .login .login-box .title li.on{font-size: 14px;}
+#content .login .login-box .title li:nth-child(1){float: left;}
+#content .login .login-box .title li:nth-child(2){float: right;}
+#content .login .login-box .title input[type="radio"]{position: relative;top: 2px;margin-right: 5px;}
+#content .login .login-box .input li{margin-top: 12px;}
+#content .login .login-box .input input[name="username"],#content .login .login-box .input input[name="password"]{width: 100%;height: 30px;border: 1px solid #eee;line-height: 30px;padding-left: 40px;box-sizing: border-box;font-size: 14px;color: #a0a0a0;}
+#content .login .login-box .input input[name="username"]{background: url(../images/username.png) no-repeat left center;background-size: 35px 30px;}
+#content .login .login-box .input input[name="password"]{background: url(../images/password.png) no-repeat left center;background-size: 35px 30px;}
+#content .login .login-box .input input[name="yanzheng"]{width: 130px;height: 30px;border: 1px solid #eee;line-height: 30px;text-indent: 5px;font-size: 14px;color: #a0a0a0;}
+#content .login .login-box .input .yanzheng img{float: right;}
+#content .login .login-box .input .kan{text-align: right;margin-top: 5px;}
+#content .login .login-box .input .kan a{color: #2058c2;text-decoration: underline;font-size: 10px;}
+#content .login .login-box .input .wangji,#content .login .login-box .input .button{margin-top: 0;}
+#content .login .login-box .input .button a{display: block;width: 100%;height: 34px;text-align: center;line-height: 34px;background: #2058c2;font-size: 18px;color: #fff;border-radius: 3px;}
+#content .login .login-box .input .register{margin-top: 5px;text-align: right;}
+#content .login .login-box .input .register a{color: #2058c2;}
+/*#content .login ul{line-height: 38px;background: #efefef;}
 #content .login ul li{display: inline-block;}
 #content .login ul li a{display: block;padding: 0 20px;font-size: 16px;height: 39px;line-height: 38px;}
 #content .login ul li.on a{background: #fff;color: #4480e0;}
@@ -148,7 +168,7 @@ input,button,select,textarea{outline:none}/*取消聚焦*/
 #content .login dl dd span{color: #ccc;font-size: 14px;margin-left: 20px;}
 #content .login dl dd img{vertical-align: middle;margin-left: 20px;}
 #content .login dl dd.wj{}
-#content .login dl dd.wj a{display: inline-block;width: 160px;height: 34px;text-align: center;line-height: 34px;color: #fff;border-radius: 10px;background: #4480e0;}
+#content .login dl dd.wj a{display: inline-block;width: 160px;height: 34px;text-align: center;line-height: 34px;color: #fff;border-radius: 10px;background: #4480e0;}*/
 #content .login .nousername{float: right;width: 473px;height: 467px;text-align: center;padding: 200px 0;box-sizing: border-box;font-size: 14px;color: #333;}
 #content .login .nousername a{display: block;width: 106px;height: 34px;text-align: center;line-height: 34px;border-radius: 5px;border: 1px solid #ccc;margin: 0 auto;font-size: 14px;color: #333;margin-top: 15px;}
 /*金融服务*/
