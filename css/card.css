@@ -110,9 +110,9 @@
 .ulcardcontact li{ float: left; width: 40%; margin-left: 40px;}
 .ulcardcontact li img{ display: inline-block; vertical-align: middle; margin-right: 20px;}
 
-.lianmeng{background: #f4f4f4;padding: 1px 1px 136px;}
-.lianmeng li{float: left;margin: 44px 0 0 54px;}
-.lianmeng li a{display: block;width: 230px;height: 130px;padding: 30px 0 18px;background: #fff;text-align: center;box-sizing: border-box;}
+.lianmeng{background: #f4f4f4;padding: 1px 1px 36px;}
+.lianmeng li{float: left;margin: 24px 0 0 24px;}
+.lianmeng li a{display: block;width: 242px;height: 260px;padding: 10px 0 10px;background: #fff;text-align: center;box-sizing: border-box;}
 .lianmeng li h5{font-size: 16px;color: #3f3f3f;margin-top: 12px;}
 
 .yuda{padding: 38px;border: 1px solid #ccc;}
@@ -156,3 +156,8 @@
 #content .cardcon .cardlt .cardmem .login input[type="text"]{background: url(../images/username.png) no-repeat left center;}
 #content .cardcon .cardlt .cardmem .login input[type="password"]{background: url(../images/password.png) no-repeat left center;}
 #content .cardcon .cardlt .cardmem .login input[type="button"]{margin-left: 65px;width: 56px;height: 26px;line-height: 26px;color: #fff;text-align: center;font-size: 14px;background: url(../images/im-btn.png) no-repeat center;margin-top: 26px;cursor: pointer;}
+
+.notis .notis-left h5{font-size: 20px;color: #2058c2;/*padding-bottom: 12px;border-bottom: 1px solid #2058c2;*/
+	background: #e2ebf2;font-weight: normal;text-indent: 5px;line-height: 52px;padding-left: 20px;}
+.localdynamic .notis-left h5{line-height: 54px;background: #e2ebf2;border: none;padding: 0;color: #4674c1;position: relative;padding-left: 30px;}
+.localdynamic .notis-left h5:before{content: '';position: absolute;width: 5px;height: 24px;background: #295ab9;left: 13px;top: 15px;}
