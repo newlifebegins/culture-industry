@@ -1,12 +1,13 @@
 .finan_l{ width:360px; border:1px solid #d8d8d8; margin-right: 20px; float: left; }
 .finan_l h2{ color:#4d4d4d; font-size: 20px; font-weight: normal; margin:20px; padding-bottom: 10px; border-bottom:1px solid #2058c2; height: 40px; line-height: 40px; }
-.finan_l h2 .apply{width:55px; height: 25px; text-align: center; line-height: 25px;color:#fff; margin-top: 10px; font-size:15px; border-radius: 5px; float: right;
+.finan_l .apply{width:55px; height: 25px; text-align: center; line-height: 25px;color:#fff; margin: 10px 150px; font-size:15px; border-radius: 5px; 
     background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#5b94f0), to(#2b60bf));
     background: -ms-linear-gradient(top, #5b94f0,  #2b60bf);
     background:-moz-linear-gradient(top,#5b94f0,#2b60bf);
     background: -webkit-linear-gradient(top, #5b94f0, #2b60bf);
     background: -o-linear-gradient(top, #5b94f0, #2b60bf);
 }
+.finan_l .title {padding:10px 10px 0px 0px;border-bottom: 1px solid #2058c2;margin: 10px 30px 20px;}
 .finan_l .explain{color:#131926; font-size: 16px; background: #f6f6f6;border:1px solid #c8c8c8;  height: 27px; width:280px; text-align: center; line-height: 27px; margin: 0 auto;}
 .finan_l .finlul{padding:0 40px;}
 .finan_l .finlul li{overflow: hidden; text-overflow: ellipsis; white-space:normal; ;}
@@ -21,7 +22,7 @@
 
 .finan_r{  width:815px;  float: right;}
 .finan_r .rcon{border:1px solid #d8d8d8; padding:15px; overflow: hidden; margin-bottom: 20px;}
-.finan_r .rcon .rcontop{color:#4d4d4d; font-size: 20px;margin-bottom: 15px; border-bottom: 1px solid #2058c2;  height: 45px;  line-height: 45px; padding:0 5px;}
+.finan_r .rcon .rcontop{color:#4d4d4d; font-size: 20px;margin-bottom: 15px; border-bottom: 1px solid #2058c2;  height: 65px;  line-height: 45px; padding:0 5px;}
 .finan_r .rcon .rcontop span{ font-size: 14px; margin-left:8px;}
 
 .finan_r .rcon .rcontop .more{color:#4d4d4d; float:right;font-size: 16px;height: 35px; line-height: 35px; margin-top: 5px;}
@@ -41,7 +42,7 @@
 .rcon .credit_r li .spanlist{font-size: 16px;color: #de2d2d;}
 
 .yinhang{margin-top: 20px; border:1px solid #eee; clear: both; padding:20px;}
-.yinhang .titp{font-size: 20px; color:#4d4d4d; border-bottom: 1px solid #2058c2; height: 38px; margin-bottom: 20px; }
+.yinhang .titp{font-size: 20px; color:#4d4d4d; border-bottom: 1px solid #2058c2; height: 65px; margin-bottom: 20px; }
 .yinhang a{display: inline-block; margin-left: 20px; height: 56px;  margin-right: 75px;}
 .yinhang a .fund{ width:258px; border-radius: 5px; background: #a0a0a0; height:44px;}
 .yinhang a P{margin-top: 12px; text-align: center;font-size: 16px;color: #131926;}
@@ -73,5 +74,4 @@
 .area-map .desc h5{font-size: 16px;color: #000;font-weight: normal;}
 .area-map .desc p{font-size: 14px;color: #242424;margin-top: 36px;text-indent: 2em;line-height: 23px;}
 
-
-
+.snap-content {width: 100%;background: #fff;margin-top: 20px; margin-bottom:-60px}

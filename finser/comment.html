@@ -243,7 +243,7 @@
             </div>
         </div>
 <div id="banner">
-    <img src="../images/banner.png">
+    <img src="../images/jinrongbanner.jpg">
 </div>
 <div id="search">
     <div class="container clearfix">
@@ -254,18 +254,6 @@
         </form>
     </div>
 </div>
-<div id="nav">
-    <div class="container">
-        <ul>
-            <li><a href="../index.html">首页</a></li>
-            <li><span>></span></li>
-            <li><a href="index.html">金融服务</a></li>
-            <li><span>></span></li>
-            <li><a href="#">申请</a></li>
-        </ul>
-    </div>
-</div>
-
 <div id="content">
     <div class="container clearfix">
         <div class="finserbox finser-left">
@@ -289,7 +277,7 @@
                 <dt>营业执照：</dt><dd class="img"><input type="text" value=""><span>*（上传照片大小、格式）</span></dd>
                 <dt>税务登记证：</dt><dd class="img"><input type="text" value=""><span>*（上传照片大小、格式）</span></dd>
                 <dt>企业职工人数：</dt><dd><input type="text" value="200"><i>(人)</i></dd>
-                <dt>是否缴纳社会保险：</dt><dd><input type="radio" id="yes" name="judge" /><label for="yes">是</label><input type="radio" id="no" name="judge" /><label for="no">否</label></dd>
+                <dt>是否缴纳社会保险：</dt><dd><input type="checkbox" id="yes" name="judge" /><label for="yes">是</label><input type="checkbox" id="no" name="judge" /><label for="no">否</label></dd>
                 <dt>企业上年度缴纳社会保险人数：</dt><dd><input type="text" value="200"><i>(人)</i></dd>
                 <dt>企业上年度水电费合计：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
                 <dt>企业上年度年产值：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
@@ -298,7 +286,7 @@
                 <dt>企业上年度资产总额：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
                 <dt>企业上年度可抵押资产总额：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
                 <dt>企业上年度资产负债率：</dt><dd><input type="text" value="200"><i>(万元)</i></dd>
-                <dd class="btn"><a href="comment_content.html">确定</a><a href="index.html">取消</a></dd>
+                <dd class="btn"><a href="comment_content.html" >提交</a><a href="index.html">取消</a></dd>
             </dl>
 
         </div>
@@ -309,7 +297,17 @@
     <li><a href="#"><img src="../images/service.png" alt="客服热线"></a></li>
     <li><a href="#"><img src="../images/return.png" alt="返回顶部"></a></li>
 </ul>
-
+<!--
+<div id="successLayer" style="display: none;">  
+			<img src="../images/ok.png">
+			<h2>恭喜你成为二星级用户！</h2>
+			<h3>是否升级为三星用户</h3>
+      <a href="comment_content.html" style="cursor:pointer;text-decoration: none;"> 是的
+      </a>  
+      <a href="#" onclick="closeDiv()"  style="cursor:pointer;text-decoration: none;">否,谢谢  
+      </a>  
+</div>  
+-->
 </body>
 <script>
   $(function(){
@@ -324,5 +322,12 @@
             return false;
         });
   });
+
+ // function showDiv() {  
+ //     document.getElementById('successLayer').style.display = 'block';        
+ // }  
+ // function closeDiv() {  
+ //     document.getElementById('successLayer').style.display = 'none';  
+ // }  
 </script>
 </html>
